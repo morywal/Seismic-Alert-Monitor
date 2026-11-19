@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Seismic Alert Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <style>
+    html, body { height: 100%; margin: 0; font-family: system-ui, sans-serif; }
+    #map { position: absolute; inset: 0; }
+    .panel {
+      position: absolute; top: 10px; right: 10px; z-index: 1000;
+      background: rgba(255,255,255,0.95); padding: 10px 14px; border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.25); font-size: 13px; max-width: 260px;
+    }
+    .panel h1 { font-size: 15px; margin: 0 0 6px; }
+    .legend span { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; }
+    .muted { color: #666; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <div class="panel">
+    <h1>Seismic Alerts</h1>
+    <div id="status" class="muted">Loading…</div>
+    <div class="legend" style="margin-top:6px">
+      <div><span style="background:#d7191c"></span>CRITICAL</div>
+      <div><span style="background:#fdae61"></span>MEDIUM</div>
+      <div><span style="background:#2b83ba"></span>LOW</div>
+    </div>
+  </div>
+  <script>
+    const COLORS = { CRITICAL: '#d7191c', MEDIUM: '#fdae61', LOW: '#2b83ba' };
+    const map = L.map('map').setView([32.7157, -117.1611], 6);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 18,
+      attribution: '&copy; OpenStreetMap contributors | Data: USGS'
+    }).addTo(map);
+    const layer = L.layerGroup().addTo(map);
+
+    function escapeHtml(s) {
+      return String(s ?? '').replace(/[&<>"']/g, c =>
+        ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
+    }
+
+    async function load() {
+      const status = document.getElementById('status');
+      try {
+        const res = await fetch('latest_alerts.json?t=' + Date.now(), { cache: 'no-store' });
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const data = await res.json();
+        layer.clearLayers();
+        const points = [];
+        for (const a of data.alerts || []) {
+          if (a.latitude == null || a.longitude == null) continue;
+          const mag = a.magnitude;
+          const marker = L.circleMarker([a.latitude, a.longitude], {
+            radius: mag != null ? Math.max(4, mag * 3) : 5,
+            color: COLORS[a.severity] || '#555',
+            fillColor: COLORS[a.severity] || '#555',
+            fillOpacity: 0.6, weight: 1.5
+          }).bindPopup(
+            `<strong>${escapeHtml(a.place)}</strong><br>` +
+            `Severity: ${escapeHtml(a.severity)}<br>` +
+            `Magnitude: ${mag != null ? mag.toFixed(1) : 'n/a'}<br>` +
+            `Depth: ${a.depthKm != null ? a.depthKm.toFixed(1) + ' km' : 'n/a'}<br>` +
+            `Time: ${new Date(a.timestampEpochMs).toISOString().replace('.000', '')}<br>` +
+            `<ul style="margin:4px 0 0;padding-left:16px">` +
+            (a.reasons || []).map(r => `<li>${escapeHtml(r)}</li>`).join('') + `</ul>`
+          );
+          marker.addTo(layer);
+          points.push([a.latitude, a.longitude]);
+        }
+        if (points.length) map.fitBounds(points, { padding: [40, 40], maxZoom: 8 });
+        status.textContent = `${points.length} alert(s) · updated ${data.generatedAtUtc}`;
+      } catch (err) {
+        status.textContent = 'Could not load latest_alerts.json (' + err.message + ')';
+      }
+    }
+
+    load();
+    setInterval(load, 5 * 60 * 1000);
+  </script>
+</body>
+</html>

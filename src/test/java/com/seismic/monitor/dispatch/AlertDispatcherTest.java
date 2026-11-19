@@ -1,5 +1,7 @@
 package com.seismic.monitor.dispatch;
 
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.seismic.monitor.model.Alert;
 import com.seismic.monitor.model.SeismicEvent;
 import com.seismic.monitor.model.Severity;
@@ -18,9 +20,10 @@ import java.time.ZoneOffset;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-/** FR-06: console summary and timestamped CSV export. */
+/** FR-06: console summary, timestamped CSV export, and JSON map feed. */
 class AlertDispatcherTest {
 
     @TempDir
@@ -110,5 +113,61 @@ class AlertDispatcherTest {
         assertEquals("\"a,b\"", AlertDispatcher.escapeCsv("a,b"));
         assertEquals("\"line\nbreak\"", AlertDispatcher.escapeCsv("line\nbreak"));
         assertEquals("", AlertDispatcher.escapeCsv(null));
+    }
+
+    @Test
+    void testJsonReportGeneration() throws IOException {
+        Path report = tempDir.resolve("docs/latest_alerts.json");
+        Clock clock = Clock.fixed(Instant.parse("2026-11-19T06:00:00.123Z"), ZoneOffset.UTC);
+
+        new AlertDispatcher(new PrintStream(new ByteArrayOutputStream()))
+                .writeJsonReport(List.of(CRITICAL_ALERT, LOW_ALERT), report, clock);
+
+        assertTrue(Files.exists(report), "parent directories created");
+        JsonNode root = new ObjectMapper().readTree(report.toFile()); // throws if not valid JSON
+        assertEquals("2026-11-19T06:00:00Z", root.get("generatedAtUtc").asText());
+        JsonNode alerts = root.get("alerts");
+        assertTrue(alerts.isArray());
+        assertEquals(2, alerts.size());
+
+        List<String> required = List.of("place", "magnitude", "latitude", "longitude", "depthKm",
+                "timestampEpochMs", "severity", "reasons");
+        for (JsonNode alert : alerts) {
+            for (String field : required) {
+                assertTrue(alert.has(field), "missing field: " + field);
+            }
+            assertTrue(alert.get("reasons").isArray());
+        }
+
+        JsonNode first = alerts.get(0);
+        assertEquals("5 km SW of Ocotillo, CA", first.get("place").asText());
+        assertEquals(5.4, first.get("magnitude").asDouble());
+        assertEquals(32.7012, first.get("latitude").asDouble());
+        assertEquals(-116.0567, first.get("longitude").asDouble());
+        assertEquals(8.75, first.get("depthKm").asDouble());
+        assertTrue(first.get("timestampEpochMs").isIntegralNumber());
+        assertEquals(Instant.parse("2026-11-18T07:30:00Z").toEpochMilli(), first.get("timestampEpochMs").asLong());
+        assertEquals("CRITICAL", first.get("severity").asText());
+        assertEquals("Magnitude M5.4 >= M4.5", first.get("reasons").get(0).asText());
+        assertEquals("Tsunami flag set by USGS", first.get("reasons").get(1).asText());
+
+        // Unknown magnitude/depth are written as null rather than invalid NaN tokens.
+        JsonNode second = alerts.get(1);
+        assertEquals("LOW", second.get("severity").asText());
+        assertTrue(second.get("magnitude").isNull());
+        assertTrue(second.get("depthKm").isNull());
+        assertFalse(Files.readString(report).contains("NaN"));
+    }
+
+    @Test
+    void testJsonReportWithNoAlerts() throws IOException {
+        Path report = tempDir.resolve("empty.json");
+
+        new AlertDispatcher().writeJsonReport(List.of(), report);
+
+        JsonNode root = new ObjectMapper().readTree(report.toFile());
+        assertTrue(root.get("generatedAtUtc").asText().matches("\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z"));
+        assertTrue(root.get("alerts").isArray());
+        assertEquals(0, root.get("alerts").size());
     }
 }

@@ -80,5 +80,14 @@ public class Main {
         } catch (IOException e) {
             System.err.println("Failed to write CSV report: " + e.getMessage());
         }
+
+        Path jsonFeed = Path.of("docs", "latest_alerts.json");
+        try {
+            dispatcher.writeJsonReport(alerts, jsonFeed);
+            System.out.println("JSON feed written to " + jsonFeed.toAbsolutePath().normalize());
+        } catch (IOException e) {
+            System.err.println("Failed to write JSON feed: " + e.getMessage());
+            System.exit(1);
+        }
     }
 }

@@ -1,0 +1,49 @@
+name: Update seismic alerts
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Never let two runs race to push docs/latest_alerts.json.
+concurrency:
+  group: update-alerts
+  cancel-in-progress: false
+
+jobs:
+  update-alerts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Java 17 (Temurin)
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+          cache: maven
+
+      - name: Run JUnit tests
+        run: mvn -B test
+
+      - name: Fetch USGS data and generate alerts
+        run: mvn -B compile exec:java -Dexec.mainClass="com.seismic.monitor.Main"
+
+      - name: Commit and push latest_alerts.json if changed
+        run: |
+          git add docs/latest_alerts.json
+          if git diff --cached --quiet -- docs/latest_alerts.json; then
+            echo "docs/latest_alerts.json unchanged; nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898398+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update latest_alerts.json [$(date -u +%Y-%m-%dT%H:%MZ)]"
+          git pull --rebase origin main
+          git push origin HEAD:main

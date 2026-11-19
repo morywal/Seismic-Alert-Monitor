@@ -1,0 +1,310 @@
+{
+  "generatedAtUtc" : "2026-11-19T06:22:06Z",
+  "alerts" : [ {
+    "place" : "Pacific-Antarctic Ridge",
+    "magnitude" : 6.1,
+    "latitude" : -57.7514,
+    "longitude" : -146.746,
+    "depthKm" : 10.0,
+    "timestampEpochMs" : 1795029263713,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M6.1 >= M4.5" ]
+  }, {
+    "place" : "4 km NNW of Tsunagi, Japan",
+    "magnitude" : 5.3,
+    "latitude" : 32.2779,
+    "longitude" : 130.4609,
+    "depthKm" : 10.0,
+    "timestampEpochMs" : 1795022543454,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M5.3 >= M4.5" ]
+  }, {
+    "place" : "149 km SSW of Merizo Village, Guam",
+    "magnitude" : 5.3,
+    "latitude" : 12.0918,
+    "longitude" : 143.9927,
+    "depthKm" : 10.0,
+    "timestampEpochMs" : 1795018011220,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M5.3 >= M4.5" ]
+  }, {
+    "place" : "130 km W of Teluk Dalam, Indonesia",
+    "magnitude" : 5.2,
+    "latitude" : 0.5027,
+    "longitude" : 96.6318,
+    "depthKm" : 10.0,
+    "timestampEpochMs" : 1795052088394,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M5.2 >= M4.5" ]
+  }, {
+    "place" : "169 km S of Attu Station, Alaska",
+    "magnitude" : 5.2,
+    "latitude" : 51.3379,
+    "longitude" : 172.8596,
+    "depthKm" : 10.0,
+    "timestampEpochMs" : 1795037327088,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M5.2 >= M4.5" ]
+  }, {
+    "place" : "86 km NW of Ryōtsu-minato, Japan",
+    "magnitude" : 5.2,
+    "latitude" : 38.7192,
+    "longitude" : 137.8725,
+    "depthKm" : 10.0,
+    "timestampEpochMs" : 1794994620617,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M5.2 >= M4.5" ]
+  }, {
+    "place" : "46 km NNE of Kilimatinde, Tanzania",
+    "magnitude" : 5.0,
+    "latitude" : -5.4599,
+    "longitude" : 35.1065,
+    "depthKm" : 10.0,
+    "timestampEpochMs" : 1795025280785,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M5.0 >= M4.5" ]
+  }, {
+    "place" : "36 km NNE of Kilimatinde, Tanzania",
+    "magnitude" : 4.9,
+    "latitude" : -5.5431,
+    "longitude" : 35.0812,
+    "depthKm" : 10.0,
+    "timestampEpochMs" : 1795054283115,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M4.9 >= M4.5" ]
+  }, {
+    "place" : "West Chile Rise",
+    "magnitude" : 4.9,
+    "latitude" : -39.6909,
+    "longitude" : -91.5033,
+    "depthKm" : 10.0,
+    "timestampEpochMs" : 1795000257037,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M4.9 >= M4.5" ]
+  }, {
+    "place" : "23 km SSE of Guayaquil, Ecuador",
+    "magnitude" : 4.8,
+    "latitude" : -2.4019,
+    "longitude" : -79.8204,
+    "depthKm" : 69.493,
+    "timestampEpochMs" : 1795067366623,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M4.8 >= M4.5" ]
+  }, {
+    "place" : "40 km NNE of Kilimatinde, Tanzania",
+    "magnitude" : 4.8,
+    "latitude" : -5.5109,
+    "longitude" : 35.0903,
+    "depthKm" : 10.0,
+    "timestampEpochMs" : 1795051773145,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M4.8 >= M4.5" ]
+  }, {
+    "place" : "11 km SSW of Santa Gertrudis Miramar, Mexico",
+    "magnitude" : 4.8,
+    "latitude" : 15.9616,
+    "longitude" : -95.4267,
+    "depthKm" : 35.0,
+    "timestampEpochMs" : 1795039612958,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M4.8 >= M4.5" ]
+  }, {
+    "place" : "134 km SW of Lorengau, Papua New Guinea",
+    "magnitude" : 4.7,
+    "latitude" : -2.9421,
+    "longitude" : 146.4693,
+    "depthKm" : 16.856,
+    "timestampEpochMs" : 1795034319129,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M4.7 >= M4.5" ]
+  }, {
+    "place" : "23 km SSW of Ollagüe, Chile",
+    "magnitude" : 4.5,
+    "latitude" : -21.411,
+    "longitude" : -68.368,
+    "depthKm" : 133.871,
+    "timestampEpochMs" : 1795027613317,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M4.5 >= M4.5" ]
+  }, {
+    "place" : "18 km ENE of Borrego Springs, CA",
+    "magnitude" : 3.36,
+    "latitude" : 33.30133,
+    "longitude" : -116.19133,
+    "depthKm" : 11.79,
+    "timestampEpochMs" : 1795045161280,
+    "severity" : "LOW",
+    "reasons" : [ "Within 111.4 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "91 km SW of San Clemente Is. (NW tip), CA",
+    "magnitude" : 3.3,
+    "latitude" : 32.38867,
+    "longitude" : -119.212,
+    "depthKm" : 5.76,
+    "timestampEpochMs" : 1795010325390,
+    "severity" : "LOW",
+    "reasons" : [ "Within 195.6 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "6 km SSW of Primo Tapia, B.C., MX",
+    "magnitude" : 2.81,
+    "latitude" : 32.16817,
+    "longitude" : -116.93483,
+    "depthKm" : 11.9,
+    "timestampEpochMs" : 1795068166960,
+    "severity" : "LOW",
+    "reasons" : [ "Within 64.5 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "9 km WNW of Holtville, CA",
+    "magnitude" : 1.62,
+    "latitude" : 32.83167,
+    "longitude" : -115.47033,
+    "depthKm" : 12.62,
+    "timestampEpochMs" : 1794994268510,
+    "severity" : "LOW",
+    "reasons" : [ "Within 158.6 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "11 km S of Progreso, B.C., MX",
+    "magnitude" : 1.5,
+    "latitude" : 32.4835,
+    "longitude" : -115.57117,
+    "depthKm" : 11.3,
+    "timestampEpochMs" : 1794989993080,
+    "severity" : "LOW",
+    "reasons" : [ "Within 151.2 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "5 km SE of La Jolla, CA",
+    "magnitude" : 1.26,
+    "latitude" : 32.81717,
+    "longitude" : -117.2285,
+    "depthKm" : 12.11,
+    "timestampEpochMs" : 1794998969900,
+    "severity" : "LOW",
+    "reasons" : [ "Within 12.9 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "3 km SE of Fillmore, CA",
+    "magnitude" : 1.22,
+    "latitude" : 34.3825,
+    "longitude" : -118.89167,
+    "depthKm" : 8.78,
+    "timestampEpochMs" : 1794990314190,
+    "severity" : "LOW",
+    "reasons" : [ "Within 245.1 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "16 km SE of Julian, CA",
+    "magnitude" : 1.19,
+    "latitude" : 32.974,
+    "longitude" : -116.49217,
+    "depthKm" : 9.22,
+    "timestampEpochMs" : 1795056561240,
+    "severity" : "LOW",
+    "reasons" : [ "Within 68.8 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "10 km ENE of Ocotillo Wells, CA",
+    "magnitude" : 1.07,
+    "latitude" : 33.183,
+    "longitude" : -116.03433,
+    "depthKm" : 4.8,
+    "timestampEpochMs" : 1795000725300,
+    "severity" : "LOW",
+    "reasons" : [ "Within 117.3 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "18 km ENE of Borrego Springs, CA",
+    "magnitude" : 0.79,
+    "latitude" : 33.308,
+    "longitude" : -116.18967,
+    "depthKm" : 11.59,
+    "timestampEpochMs" : 1795052906860,
+    "severity" : "LOW",
+    "reasons" : [ "Within 112.0 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "12 km SE of Winchester, CA",
+    "magnitude" : 0.79,
+    "latitude" : 33.6335,
+    "longitude" : -116.9965,
+    "depthKm" : 10.07,
+    "timestampEpochMs" : 1795042814310,
+    "severity" : "LOW",
+    "reasons" : [ "Within 103.2 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "14 km S of Borrego Springs, CA",
+    "magnitude" : 0.78,
+    "latitude" : 33.13267,
+    "longitude" : -116.38733,
+    "depthKm" : 7.53,
+    "timestampEpochMs" : 1794992355770,
+    "severity" : "LOW",
+    "reasons" : [ "Within 85.8 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "1 km SW of East Los Angeles, CA",
+    "magnitude" : 0.75,
+    "latitude" : 34.0245,
+    "longitude" : -118.17917,
+    "depthKm" : 16.65,
+    "timestampEpochMs" : 1794983531030,
+    "severity" : "LOW",
+    "reasons" : [ "Within 173.5 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "10 km S of Idyllwild, CA",
+    "magnitude" : 0.7,
+    "latitude" : 33.649,
+    "longitude" : -116.7235,
+    "depthKm" : 15.75,
+    "timestampEpochMs" : 1795012877060,
+    "severity" : "LOW",
+    "reasons" : [ "Within 111.5 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "3 km WSW of Anza, CA",
+    "magnitude" : 0.58,
+    "latitude" : 33.54,
+    "longitude" : -116.70533,
+    "depthKm" : 5.68,
+    "timestampEpochMs" : 1795034124080,
+    "severity" : "LOW",
+    "reasons" : [ "Within 101.0 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "9 km WNW of Anza, CA",
+    "magnitude" : 0.57,
+    "latitude" : 33.58617,
+    "longitude" : -116.7595,
+    "depthKm" : 12.04,
+    "timestampEpochMs" : 1795054137010,
+    "severity" : "LOW",
+    "reasons" : [ "Within 103.8 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "4 km WSW of Anza, CA",
+    "magnitude" : 0.55,
+    "latitude" : 33.53483,
+    "longitude" : -116.7115,
+    "depthKm" : 5.77,
+    "timestampEpochMs" : 1795056336550,
+    "severity" : "LOW",
+    "reasons" : [ "Within 100.2 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "3 km SW of Anza, CA",
+    "magnitude" : 0.43,
+    "latitude" : 33.53567,
+    "longitude" : -116.70233,
+    "depthKm" : 5.56,
+    "timestampEpochMs" : 1795001203210,
+    "severity" : "LOW",
+    "reasons" : [ "Within 100.7 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "4 km WSW of Anza, CA",
+    "magnitude" : 0.31,
+    "latitude" : 33.53583,
+    "longitude" : -116.70983,
+    "depthKm" : 6.82,
+    "timestampEpochMs" : 1795008933690,
+    "severity" : "LOW",
+    "reasons" : [ "Within 100.4 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "4 km WSW of Anza, CA",
+    "magnitude" : 0.29,
+    "latitude" : 33.53817,
+    "longitude" : -116.706,
+    "depthKm" : 6.47,
+    "timestampEpochMs" : 1794992897440,
+    "severity" : "LOW",
+    "reasons" : [ "Within 100.8 km of target (32.7157, -117.1611) <= 250 km" ]
+  } ]
+}
