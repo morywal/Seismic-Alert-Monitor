@@ -1,0 +1,5 @@
+target/
+alerts_report_*.csv
+*.iml
+.idea/
+.vscode/
