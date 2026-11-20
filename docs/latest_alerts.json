@@ -1,6 +1,15 @@
 {
-  "generatedAtUtc" : "2026-11-19T23:00:29Z",
+  "generatedAtUtc" : "2026-11-20T04:12:55Z",
   "alerts" : [ {
+    "place" : "southeast of the Loyalty Islands",
+    "magnitude" : 5.6,
+    "latitude" : -24.6996,
+    "longitude" : 171.2326,
+    "depthKm" : 10.0,
+    "timestampEpochMs" : 1795135754102,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M5.6 >= M4.5" ]
+  }, {
     "place" : "South Georgia Island region",
     "magnitude" : 5.3,
     "latitude" : -55.0035,
@@ -9,15 +18,6 @@
     "timestampEpochMs" : 1795118869383,
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M5.3 >= M4.5" ]
-  }, {
-    "place" : "130 km W of Teluk Dalam, Indonesia",
-    "magnitude" : 5.2,
-    "latitude" : 0.5027,
-    "longitude" : 96.6318,
-    "depthKm" : 10.0,
-    "timestampEpochMs" : 1795052088394,
-    "severity" : "MEDIUM",
-    "reasons" : [ "Magnitude M5.2 >= M4.5" ]
   }, {
     "place" : "99 km WSW of Illapel, Chile",
     "magnitude" : 5.1,
@@ -64,14 +64,14 @@
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M4.9 >= M4.5" ]
   }, {
-    "place" : "36 km NNE of Kilimatinde, Tanzania",
-    "magnitude" : 4.9,
-    "latitude" : -5.5431,
-    "longitude" : 35.0812,
-    "depthKm" : 10.0,
-    "timestampEpochMs" : 1795054283115,
+    "place" : "24 km ESE of Calingasta, Argentina",
+    "magnitude" : 4.8,
+    "latitude" : -31.4302,
+    "longitude" : -69.1883,
+    "depthKm" : 113.86,
+    "timestampEpochMs" : 1795143438070,
     "severity" : "MEDIUM",
-    "reasons" : [ "Magnitude M4.9 >= M4.5" ]
+    "reasons" : [ "Magnitude M4.8 >= M4.5" ]
   }, {
     "place" : "23 km SSE of Guayaquil, Ecuador",
     "magnitude" : 4.8,
@@ -79,15 +79,6 @@
     "longitude" : -79.8204,
     "depthKm" : 69.493,
     "timestampEpochMs" : 1795067366623,
-    "severity" : "MEDIUM",
-    "reasons" : [ "Magnitude M4.8 >= M4.5" ]
-  }, {
-    "place" : "40 km NNE of Kilimatinde, Tanzania",
-    "magnitude" : 4.8,
-    "latitude" : -5.5109,
-    "longitude" : 35.0903,
-    "depthKm" : 10.0,
-    "timestampEpochMs" : 1795051773145,
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M4.8 >= M4.5" ]
   }, {
@@ -100,14 +91,14 @@
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M4.7 >= M4.5" ]
   }, {
-    "place" : "18 km ENE of Borrego Springs, CA",
-    "magnitude" : 3.36,
-    "latitude" : 33.30133,
-    "longitude" : -116.19133,
-    "depthKm" : 11.79,
-    "timestampEpochMs" : 1795045161280,
-    "severity" : "LOW",
-    "reasons" : [ "Within 111.4 km of target (32.7157, -117.1611) <= 250 km" ]
+    "place" : "236 km W of Tual, Indonesia",
+    "magnitude" : 4.5,
+    "latitude" : -6.0263,
+    "longitude" : 130.6505,
+    "depthKm" : 124.788,
+    "timestampEpochMs" : 1795124973219,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M4.5 >= M4.5" ]
   }, {
     "place" : "7 km SSW of Primo Tapia, B.C., MX",
     "magnitude" : 2.67,
@@ -154,6 +145,15 @@
     "severity" : "LOW",
     "reasons" : [ "Within 73.7 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
+    "place" : "18 km ESE of Julian, CA",
+    "magnitude" : 1.38,
+    "latitude" : 33.03083,
+    "longitude" : -116.41233,
+    "depthKm" : 8.58,
+    "timestampEpochMs" : 1795130768100,
+    "severity" : "LOW",
+    "reasons" : [ "Within 78.2 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
     "place" : "15 km NNE of Thousand Palms, CA",
     "magnitude" : 1.36,
     "latitude" : 33.94033,
@@ -190,15 +190,6 @@
     "severity" : "LOW",
     "reasons" : [ "Within 170.4 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "16 km SE of Julian, CA",
-    "magnitude" : 1.19,
-    "latitude" : 32.974,
-    "longitude" : -116.49217,
-    "depthKm" : 9.22,
-    "timestampEpochMs" : 1795056561240,
-    "severity" : "LOW",
-    "reasons" : [ "Within 68.8 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
     "place" : "9 km WNW of Anza, CA",
     "magnitude" : 1.13,
     "latitude" : 33.579,
@@ -207,6 +198,15 @@
     "timestampEpochMs" : 1795095065710,
     "severity" : "LOW",
     "reasons" : [ "Within 102.8 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "7 km SSE of Palomar Observatory, CA",
+    "magnitude" : 1.12,
+    "latitude" : 33.295,
+    "longitude" : -116.83167,
+    "depthKm" : 14.7,
+    "timestampEpochMs" : 1795132157730,
+    "severity" : "LOW",
+    "reasons" : [ "Within 71.4 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "4 km SW of Anza, CA",
     "magnitude" : 1.07,
@@ -244,15 +244,6 @@
     "severity" : "LOW",
     "reasons" : [ "Within 92.5 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "18 km ENE of Borrego Springs, CA",
-    "magnitude" : 0.79,
-    "latitude" : 33.308,
-    "longitude" : -116.18967,
-    "depthKm" : 11.59,
-    "timestampEpochMs" : 1795052906860,
-    "severity" : "LOW",
-    "reasons" : [ "Within 112.0 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
     "place" : "7 km SSE of Redlands, CA",
     "magnitude" : 0.73,
     "latitude" : 33.997,
@@ -270,24 +261,6 @@
     "timestampEpochMs" : 1795089743550,
     "severity" : "LOW",
     "reasons" : [ "Within 111.2 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
-    "place" : "9 km WNW of Anza, CA",
-    "magnitude" : 0.57,
-    "latitude" : 33.58617,
-    "longitude" : -116.7595,
-    "depthKm" : 12.04,
-    "timestampEpochMs" : 1795054137010,
-    "severity" : "LOW",
-    "reasons" : [ "Within 103.8 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
-    "place" : "4 km WSW of Anza, CA",
-    "magnitude" : 0.55,
-    "latitude" : 33.53483,
-    "longitude" : -116.7115,
-    "depthKm" : 5.77,
-    "timestampEpochMs" : 1795056336550,
-    "severity" : "LOW",
-    "reasons" : [ "Within 100.2 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "0 km NNE of Anza, CA",
     "magnitude" : 0.54,
