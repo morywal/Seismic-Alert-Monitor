@@ -1,6 +1,24 @@
 {
-  "generatedAtUtc" : "2026-11-20T04:12:55Z",
+  "generatedAtUtc" : "2026-11-20T13:29:21Z",
   "alerts" : [ {
+    "place" : "10 km NW of Pinnacles, CA",
+    "magnitude" : 4.98,
+    "latitude" : 36.5934982299805,
+    "longitude" : -121.220664978027,
+    "depthKm" : 6.69999980926514,
+    "timestampEpochMs" : 1795157356530,
+    "severity" : "CRITICAL",
+    "reasons" : [ "Magnitude M5.0 >= M4.5", "Tsunami flag set by USGS" ]
+  }, {
+    "place" : "1 km NW of Commerce, CA",
+    "magnitude" : 4.2,
+    "latitude" : 34.00633,
+    "longitude" : -118.1665,
+    "depthKm" : 15.45,
+    "timestampEpochMs" : 1795173935140,
+    "severity" : "CRITICAL",
+    "reasons" : [ "Within 171.2 km of target (32.7157, -117.1611) <= 250 km", "Tsunami flag set by USGS" ]
+  }, {
     "place" : "southeast of the Loyalty Islands",
     "magnitude" : 5.6,
     "latitude" : -24.6996,
@@ -9,6 +27,15 @@
     "timestampEpochMs" : 1795135754102,
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M5.6 >= M4.5" ]
+  }, {
+    "place" : "Carlsberg Ridge",
+    "magnitude" : 5.4,
+    "latitude" : 9.7949,
+    "longitude" : 57.7485,
+    "depthKm" : 10.0,
+    "timestampEpochMs" : 1795164251644,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M5.4 >= M4.5" ]
   }, {
     "place" : "South Georgia Island region",
     "magnitude" : 5.3,
@@ -19,6 +46,15 @@
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M5.3 >= M4.5" ]
   }, {
+    "place" : "15 km SSW of Balangonan, Philippines",
+    "magnitude" : 5.1,
+    "latitude" : 5.4441,
+    "longitude" : 125.2986,
+    "depthKm" : 73.392,
+    "timestampEpochMs" : 1795180144057,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M5.1 >= M4.5" ]
+  }, {
     "place" : "99 km WSW of Illapel, Chile",
     "magnitude" : 5.1,
     "latitude" : -31.8465,
@@ -27,6 +63,15 @@
     "timestampEpochMs" : 1795111786530,
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M5.1 >= M4.5" ]
+  }, {
+    "place" : "southeast of the Loyalty Islands",
+    "magnitude" : 5.0,
+    "latitude" : -24.7463,
+    "longitude" : 171.4327,
+    "depthKm" : 10.0,
+    "timestampEpochMs" : 1795170601069,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M5.0 >= M4.5" ]
   }, {
     "place" : "central East Pacific Rise",
     "magnitude" : 5.0,
@@ -37,14 +82,14 @@
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M5.0 >= M4.5" ]
   }, {
-    "place" : "31 km WSW of Rabaul, Papua New Guinea",
-    "magnitude" : 5.0,
-    "latitude" : -4.2965,
-    "longitude" : 151.8945,
-    "depthKm" : 194.803,
-    "timestampEpochMs" : 1795085587767,
+    "place" : "54 km W of Madang, Papua New Guinea",
+    "magnitude" : 4.9,
+    "latitude" : -5.219,
+    "longitude" : 145.2974,
+    "depthKm" : 97.583,
+    "timestampEpochMs" : 1795151865106,
     "severity" : "MEDIUM",
-    "reasons" : [ "Magnitude M5.0 >= M4.5" ]
+    "reasons" : [ "Magnitude M4.9 >= M4.5" ]
   }, {
     "place" : "13 km WNW of Xichang, China",
     "magnitude" : 4.9,
@@ -52,15 +97,6 @@
     "longitude" : 102.1326,
     "depthKm" : 10.0,
     "timestampEpochMs" : 1795113679631,
-    "severity" : "MEDIUM",
-    "reasons" : [ "Magnitude M4.9 >= M4.5" ]
-  }, {
-    "place" : "65 km SSW of Atka, Alaska",
-    "magnitude" : 4.9,
-    "latitude" : 51.6797,
-    "longitude" : -174.66,
-    "depthKm" : 46.052,
-    "timestampEpochMs" : 1795093522466,
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M4.9 >= M4.5" ]
   }, {
@@ -73,23 +109,32 @@
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M4.8 >= M4.5" ]
   }, {
-    "place" : "23 km SSE of Guayaquil, Ecuador",
-    "magnitude" : 4.8,
-    "latitude" : -2.4019,
-    "longitude" : -79.8204,
-    "depthKm" : 69.493,
-    "timestampEpochMs" : 1795067366623,
-    "severity" : "MEDIUM",
-    "reasons" : [ "Magnitude M4.8 >= M4.5" ]
-  }, {
-    "place" : "92 km W of San Juan, Peru",
+    "place" : "southeast of the Loyalty Islands",
     "magnitude" : 4.7,
-    "latitude" : -15.3841,
-    "longitude" : -76.0248,
+    "latitude" : -24.6606,
+    "longitude" : 171.1906,
     "depthKm" : 10.0,
-    "timestampEpochMs" : 1795079293359,
+    "timestampEpochMs" : 1795171724362,
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M4.7 >= M4.5" ]
+  }, {
+    "place" : "Carlsberg Ridge",
+    "magnitude" : 4.7,
+    "latitude" : 9.7529,
+    "longitude" : 57.8408,
+    "depthKm" : 10.0,
+    "timestampEpochMs" : 1795164174187,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M4.7 >= M4.5" ]
+  }, {
+    "place" : "40 km SSE of Koróni, Greece",
+    "magnitude" : 4.6,
+    "latitude" : 36.4406,
+    "longitude" : 22.082,
+    "depthKm" : 41.976,
+    "timestampEpochMs" : 1795169774294,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M4.6 >= M4.5" ]
   }, {
     "place" : "236 km W of Tual, Indonesia",
     "magnitude" : 4.5,
@@ -100,14 +145,32 @@
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M4.5 >= M4.5" ]
   }, {
-    "place" : "7 km SSW of Primo Tapia, B.C., MX",
-    "magnitude" : 2.67,
-    "latitude" : 32.16567,
-    "longitude" : -116.94617,
-    "depthKm" : 15.8,
-    "timestampEpochMs" : 1795068166870,
+    "place" : "9 km NE of Aguanga, CA",
+    "magnitude" : 2.54,
+    "latitude" : 33.4905,
+    "longitude" : -116.79233,
+    "depthKm" : 10.74,
+    "timestampEpochMs" : 1795157800490,
     "severity" : "LOW",
-    "reasons" : [ "Within 64.4 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 92.7 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "12 km S of Alberto Oviedo Mota, B.C., MX",
+    "magnitude" : 2.24,
+    "latitude" : 32.12267,
+    "longitude" : -115.17,
+    "depthKm" : 11.88,
+    "timestampEpochMs" : 1795162121870,
+    "severity" : "LOW",
+    "reasons" : [ "Within 198.2 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "8 km NE of Aguanga, CA",
+    "magnitude" : 2.01,
+    "latitude" : 33.4835,
+    "longitude" : -116.7975,
+    "depthKm" : 10.5,
+    "timestampEpochMs" : 1795157780400,
+    "severity" : "LOW",
+    "reasons" : [ "Within 91.8 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "7 km S of Redlands, CA",
     "magnitude" : 1.96,
@@ -118,24 +181,6 @@
     "severity" : "LOW",
     "reasons" : [ "Within 141.8 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "7 km ENE of Puebla, B.C., MX",
-    "magnitude" : 1.72,
-    "latitude" : 32.59383,
-    "longitude" : -115.28283,
-    "depthKm" : 18.26,
-    "timestampEpochMs" : 1795073000610,
-    "severity" : "LOW",
-    "reasons" : [ "Within 176.4 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
-    "place" : "14 km N of Warner Springs, CA",
-    "magnitude" : 1.45,
-    "latitude" : 33.40533,
-    "longitude" : -116.64567,
-    "depthKm" : 6.61,
-    "timestampEpochMs" : 1795074388960,
-    "severity" : "LOW",
-    "reasons" : [ "Within 90.5 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
     "place" : "6 km SW of Warner Springs, CA",
     "magnitude" : 1.43,
     "latitude" : 33.23883,
@@ -145,6 +190,24 @@
     "severity" : "LOW",
     "reasons" : [ "Within 73.7 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
+    "place" : "6 km SSW of Idyllwild, CA",
+    "magnitude" : 1.42,
+    "latitude" : 33.68833,
+    "longitude" : -116.745,
+    "depthKm" : 16.21,
+    "timestampEpochMs" : 1795179928640,
+    "severity" : "LOW",
+    "reasons" : [ "Within 114.9 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "14 km S of Las Flores, CA",
+    "magnitude" : 1.4,
+    "latitude" : 33.91483,
+    "longitude" : -118.64667,
+    "depthKm" : 7.99,
+    "timestampEpochMs" : 1795167040880,
+    "severity" : "LOW",
+    "reasons" : [ "Within 191.9 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
     "place" : "18 km ESE of Julian, CA",
     "magnitude" : 1.38,
     "latitude" : 33.03083,
@@ -153,24 +216,6 @@
     "timestampEpochMs" : 1795130768100,
     "severity" : "LOW",
     "reasons" : [ "Within 78.2 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
-    "place" : "15 km NNE of Thousand Palms, CA",
-    "magnitude" : 1.36,
-    "latitude" : 33.94033,
-    "longitude" : -116.316,
-    "depthKm" : 5.55,
-    "timestampEpochMs" : 1795070081040,
-    "severity" : "LOW",
-    "reasons" : [ "Within 157.2 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
-    "place" : "2 km W of San Jacinto, CA",
-    "magnitude" : 1.31,
-    "latitude" : 33.7855,
-    "longitude" : -116.9825,
-    "depthKm" : 15.19,
-    "timestampEpochMs" : 1795074749090,
-    "severity" : "LOW",
-    "reasons" : [ "Within 120.1 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "10 km ENE of North Tustin, CA",
     "magnitude" : 1.3,
@@ -208,6 +253,15 @@
     "severity" : "LOW",
     "reasons" : [ "Within 71.4 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
+    "place" : "4 km SSW of Idyllwild, CA",
+    "magnitude" : 1.07,
+    "latitude" : 33.70067,
+    "longitude" : -116.73017,
+    "depthKm" : 15.16,
+    "timestampEpochMs" : 1795179956630,
+    "severity" : "LOW",
+    "reasons" : [ "Within 116.6 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
     "place" : "4 km SW of Anza, CA",
     "magnitude" : 1.07,
     "latitude" : 33.535,
@@ -216,6 +270,15 @@
     "timestampEpochMs" : 1795097688640,
     "severity" : "LOW",
     "reasons" : [ "Within 100.4 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "5 km SSW of Idyllwild, CA",
+    "magnitude" : 1.06,
+    "latitude" : 33.696,
+    "longitude" : -116.73483,
+    "depthKm" : 16.68,
+    "timestampEpochMs" : 1795179956460,
+    "severity" : "LOW",
+    "reasons" : [ "Within 116.0 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "8 km ENE of Julian, CA",
     "magnitude" : 1.06,
@@ -226,6 +289,15 @@
     "severity" : "LOW",
     "reasons" : [ "Within 74.1 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
+    "place" : "3 km SSE of Yucca Valley, CA",
+    "magnitude" : 0.99,
+    "latitude" : 34.0845,
+    "longitude" : -116.41967,
+    "depthKm" : 6.55,
+    "timestampEpochMs" : 1795151697780,
+    "severity" : "LOW",
+    "reasons" : [ "Within 167.0 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
     "place" : "9 km ENE of Julian, CA",
     "magnitude" : 0.99,
     "latitude" : 33.1045,
@@ -235,67 +307,49 @@
     "severity" : "LOW",
     "reasons" : [ "Within 74.2 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "3 km W of Borrego Springs, CA",
-    "magnitude" : 0.97,
-    "latitude" : 33.261,
-    "longitude" : -116.41183,
-    "depthKm" : 3.96,
-    "timestampEpochMs" : 1795090578970,
+    "place" : "11 km SW of Anza, CA",
+    "magnitude" : 0.96,
+    "latitude" : 33.47617,
+    "longitude" : -116.74467,
+    "depthKm" : 14.84,
+    "timestampEpochMs" : 1795153565020,
     "severity" : "LOW",
-    "reasons" : [ "Within 92.5 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 93.0 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "7 km SSE of Redlands, CA",
-    "magnitude" : 0.73,
-    "latitude" : 33.997,
-    "longitude" : -117.14933,
-    "depthKm" : 15.96,
-    "timestampEpochMs" : 1795078889320,
+    "place" : "4 km SE of Loma Linda, CA",
+    "magnitude" : 0.8,
+    "latitude" : 34.02117,
+    "longitude" : -117.23317,
+    "depthKm" : 1.6,
+    "timestampEpochMs" : 1795151390100,
     "severity" : "LOW",
-    "reasons" : [ "Within 142.5 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
-    "place" : "11 km S of Idyllwild, CA",
-    "magnitude" : 0.61,
-    "latitude" : 33.645,
-    "longitude" : -116.71883,
-    "depthKm" : 12.44,
-    "timestampEpochMs" : 1795089743550,
-    "severity" : "LOW",
-    "reasons" : [ "Within 111.2 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
-    "place" : "0 km NNE of Anza, CA",
-    "magnitude" : 0.54,
-    "latitude" : 33.55767,
-    "longitude" : -116.6725,
-    "depthKm" : 10.99,
-    "timestampEpochMs" : 1795092296710,
-    "severity" : "LOW",
-    "reasons" : [ "Within 104.1 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
-    "place" : "4 km SW of Anza, CA",
-    "magnitude" : 0.5,
-    "latitude" : 33.535,
-    "longitude" : -116.70883,
-    "depthKm" : 6.77,
-    "timestampEpochMs" : 1795073991650,
-    "severity" : "LOW",
-    "reasons" : [ "Within 100.4 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 145.3 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "10 km S of Idyllwild, CA",
-    "magnitude" : 0.18,
-    "latitude" : 33.64733,
-    "longitude" : -116.72333,
-    "depthKm" : 12.38,
-    "timestampEpochMs" : 1795089636340,
+    "magnitude" : 0.7,
+    "latitude" : 33.64833,
+    "longitude" : -116.74017,
+    "depthKm" : 13.58,
+    "timestampEpochMs" : 1795154202650,
     "severity" : "LOW",
-    "reasons" : [ "Within 111.3 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 110.9 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "3 km WSW of Anza, CA",
-    "magnitude" : 0.12,
-    "latitude" : 33.54067,
-    "longitude" : -116.702,
-    "depthKm" : 6.27,
-    "timestampEpochMs" : 1795073127310,
+    "place" : "3 km WNW of Valle Vista, CA",
+    "magnitude" : 0.48,
+    "latitude" : 33.75833,
+    "longitude" : -116.92267,
+    "depthKm" : 14.31,
+    "timestampEpochMs" : 1795171889330,
     "severity" : "LOW",
-    "reasons" : [ "Within 101.2 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 118.0 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "6 km SW of Idyllwild, CA",
+    "magnitude" : 0.41,
+    "latitude" : 33.7015,
+    "longitude" : -116.7625,
+    "depthKm" : 15.67,
+    "timestampEpochMs" : 1795164993530,
+    "severity" : "LOW",
+    "reasons" : [ "Within 115.7 km of target (32.7157, -117.1611) <= 250 km" ]
   } ]
 }
