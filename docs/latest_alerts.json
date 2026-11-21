@@ -1,6 +1,15 @@
 {
-  "generatedAtUtc" : "2026-11-20T21:29:54Z",
+  "generatedAtUtc" : "2026-11-21T02:46:57Z",
   "alerts" : [ {
+    "place" : "9 km NE of Carhuamayo, Peru",
+    "magnitude" : 6.7,
+    "latitude" : -10.8548,
+    "longitude" : -75.9779,
+    "depthKm" : 107.991,
+    "timestampEpochMs" : 1795219759667,
+    "severity" : "CRITICAL",
+    "reasons" : [ "Magnitude M6.7 >= M4.5", "Tsunami flag set by USGS" ]
+  }, {
     "place" : "10 km NW of Pinnacles, CA",
     "magnitude" : 4.98,
     "latitude" : 36.5934982299805,
@@ -18,15 +27,6 @@
     "timestampEpochMs" : 1795173935140,
     "severity" : "CRITICAL",
     "reasons" : [ "Within 171.2 km of target (32.7157, -117.1611) <= 250 km", "Tsunami flag set by USGS" ]
-  }, {
-    "place" : "southeast of the Loyalty Islands",
-    "magnitude" : 5.6,
-    "latitude" : -24.6996,
-    "longitude" : 171.2326,
-    "depthKm" : 10.0,
-    "timestampEpochMs" : 1795135754102,
-    "severity" : "MEDIUM",
-    "reasons" : [ "Magnitude M5.6 >= M4.5" ]
   }, {
     "place" : "Carlsberg Ridge",
     "magnitude" : 5.4,
@@ -64,6 +64,33 @@
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M5.0 >= M4.5" ]
   }, {
+    "place" : "Reykjanes Ridge",
+    "magnitude" : 4.9,
+    "latitude" : 58.5457,
+    "longitude" : -31.857,
+    "depthKm" : 10.0,
+    "timestampEpochMs" : 1795227877289,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M4.9 >= M4.5" ]
+  }, {
+    "place" : "Reykjanes Ridge",
+    "magnitude" : 4.9,
+    "latitude" : 58.3017,
+    "longitude" : -31.7606,
+    "depthKm" : 10.0,
+    "timestampEpochMs" : 1795224379109,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M4.9 >= M4.5" ]
+  }, {
+    "place" : "113 km ESE of Pangai, Tonga",
+    "magnitude" : 4.9,
+    "latitude" : -20.3204,
+    "longitude" : -173.4099,
+    "depthKm" : 10.0,
+    "timestampEpochMs" : 1795214079096,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M4.9 >= M4.5" ]
+  }, {
     "place" : "54 km W of Madang, Papua New Guinea",
     "magnitude" : 4.9,
     "latitude" : -5.219,
@@ -81,6 +108,15 @@
     "timestampEpochMs" : 1795143438070,
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M4.8 >= M4.5" ]
+  }, {
+    "place" : "38 km NE of Calama, Chile",
+    "magnitude" : 4.7,
+    "latitude" : -22.2307,
+    "longitude" : -68.6409,
+    "depthKm" : 120.01,
+    "timestampEpochMs" : 1795224249274,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M4.7 >= M4.5" ]
   }, {
     "place" : "94 km W of Illapel, Chile",
     "magnitude" : 4.7,
@@ -118,14 +154,14 @@
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M4.6 >= M4.5" ]
   }, {
-    "place" : "236 km W of Tual, Indonesia",
-    "magnitude" : 4.5,
-    "latitude" : -6.0263,
-    "longitude" : 130.6505,
-    "depthKm" : 124.788,
-    "timestampEpochMs" : 1795124973219,
-    "severity" : "MEDIUM",
-    "reasons" : [ "Magnitude M4.5 >= M4.5" ]
+    "place" : "41 km ENE of Maneadero, B.C., MX",
+    "magnitude" : 2.7,
+    "latitude" : 31.867,
+    "longitude" : -116.17233,
+    "depthKm" : 11.46,
+    "timestampEpochMs" : 1795219803910,
+    "severity" : "LOW",
+    "reasons" : [ "Within 132.5 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "12 km S of Alberto Oviedo Mota, B.C., MX",
     "magnitude" : 2.28,
@@ -145,23 +181,14 @@
     "severity" : "LOW",
     "reasons" : [ "Within 92.1 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "2 km NNW of Grand Terrace, CA",
-    "magnitude" : 1.77,
-    "latitude" : 34.04967,
-    "longitude" : -117.3255,
-    "depthKm" : 1.21,
-    "timestampEpochMs" : 1795207036420,
+    "place" : "10 km WSW of Niland, CA",
+    "magnitude" : 1.69,
+    "latitude" : 33.19217,
+    "longitude" : -115.60483,
+    "depthKm" : 2.77,
+    "timestampEpochMs" : 1795227428240,
     "severity" : "LOW",
-    "reasons" : [ "Within 149.1 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
-    "place" : "2 km SSE of Home Gardens, CA",
-    "magnitude" : 1.53,
-    "latitude" : 33.85883,
-    "longitude" : -117.50817,
-    "depthKm" : 2.41,
-    "timestampEpochMs" : 1795209771430,
-    "severity" : "LOW",
-    "reasons" : [ "Within 131.1 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 154.6 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "9 km NE of Aguanga, CA",
     "magnitude" : 1.5,
@@ -190,15 +217,6 @@
     "severity" : "LOW",
     "reasons" : [ "Within 114.9 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "18 km ESE of Julian, CA",
-    "magnitude" : 1.38,
-    "latitude" : 33.03083,
-    "longitude" : -116.41233,
-    "depthKm" : 8.58,
-    "timestampEpochMs" : 1795130768100,
-    "severity" : "LOW",
-    "reasons" : [ "Within 78.2 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
     "place" : "6 km SSW of Idyllwild, CA",
     "magnitude" : 1.09,
     "latitude" : 33.69067,
@@ -208,23 +226,14 @@
     "severity" : "LOW",
     "reasons" : [ "Within 115.3 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "7 km SSE of Palomar Observatory, CA",
-    "magnitude" : 1.07,
-    "latitude" : 33.29483,
-    "longitude" : -116.83033,
-    "depthKm" : 15.6,
-    "timestampEpochMs" : 1795132157650,
+    "place" : "6 km N of Fontana, CA",
+    "magnitude" : 0.99,
+    "latitude" : 34.15517,
+    "longitude" : -117.46483,
+    "depthKm" : 7.97,
+    "timestampEpochMs" : 1795211219650,
     "severity" : "LOW",
-    "reasons" : [ "Within 71.4 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
-    "place" : "8 km ENE of Julian, CA",
-    "magnitude" : 1.06,
-    "latitude" : 33.10633,
-    "longitude" : -116.5185,
-    "depthKm" : 12.02,
-    "timestampEpochMs" : 1795124067280,
-    "severity" : "LOW",
-    "reasons" : [ "Within 74.1 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 162.5 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "3 km SSE of Yucca Valley, CA",
     "magnitude" : 0.99,
@@ -253,15 +262,6 @@
     "severity" : "LOW",
     "reasons" : [ "Within 92.9 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "4 km SW of Anza, CA",
-    "magnitude" : 0.84,
-    "latitude" : 33.534,
-    "longitude" : -116.71117,
-    "depthKm" : 6.73,
-    "timestampEpochMs" : 1795136735580,
-    "severity" : "LOW",
-    "reasons" : [ "Within 100.2 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
     "place" : "1 km SE of Loma Linda, CA",
     "magnitude" : 0.82,
     "latitude" : 34.04383,
@@ -270,6 +270,24 @@
     "timestampEpochMs" : 1795151389890,
     "severity" : "LOW",
     "reasons" : [ "Within 147.9 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "4 km NNW of Aguanga, CA",
+    "magnitude" : 0.8,
+    "latitude" : 33.47467,
+    "longitude" : -116.88583,
+    "depthKm" : 12.3,
+    "timestampEpochMs" : 1795210616100,
+    "severity" : "LOW",
+    "reasons" : [ "Within 88.2 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "3 km WNW of Loma Linda, CA",
+    "magnitude" : 0.72,
+    "latitude" : 34.05633,
+    "longitude" : -117.287,
+    "depthKm" : 15.97,
+    "timestampEpochMs" : 1795227891270,
+    "severity" : "LOW",
+    "reasons" : [ "Within 149.5 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "10 km SSW of Idyllwild, CA",
     "magnitude" : 0.7,
@@ -306,14 +324,5 @@
     "timestampEpochMs" : 1795164993560,
     "severity" : "LOW",
     "reasons" : [ "Within 115.4 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
-    "place" : "4 km WSW of Anza, CA",
-    "magnitude" : 0.34,
-    "latitude" : 33.536,
-    "longitude" : -116.70833,
-    "depthKm" : 5.49,
-    "timestampEpochMs" : 1795134445780,
-    "severity" : "LOW",
-    "reasons" : [ "Within 100.5 km of target (32.7157, -117.1611) <= 250 km" ]
   } ]
 }
