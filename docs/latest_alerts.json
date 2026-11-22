@@ -1,15 +1,6 @@
 {
-  "generatedAtUtc" : "2026-11-21T22:58:11Z",
+  "generatedAtUtc" : "2026-11-22T02:59:13Z",
   "alerts" : [ {
-    "place" : "9 km NE of Carhuamayo, Peru",
-    "magnitude" : 6.7,
-    "latitude" : -10.8548,
-    "longitude" : -75.9779,
-    "depthKm" : 107.991,
-    "timestampEpochMs" : 1795219759667,
-    "severity" : "CRITICAL",
-    "reasons" : [ "Magnitude M6.7 >= M4.5", "Tsunami flag set by USGS" ]
-  }, {
     "place" : "28 km NNE of Chenega, Alaska",
     "magnitude" : 4.1,
     "latitude" : 60.301,
@@ -73,32 +64,14 @@
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M4.9 >= M4.5" ]
   }, {
-    "place" : "Reykjanes Ridge",
-    "magnitude" : 4.9,
-    "latitude" : 58.5457,
-    "longitude" : -31.857,
-    "depthKm" : 10.0,
-    "timestampEpochMs" : 1795227877289,
+    "place" : "60 km WNW of Abepura, Indonesia",
+    "magnitude" : 4.6,
+    "latitude" : -2.442,
+    "longitude" : 140.1129,
+    "depthKm" : 31.078,
+    "timestampEpochMs" : 1795302965571,
     "severity" : "MEDIUM",
-    "reasons" : [ "Magnitude M4.9 >= M4.5" ]
-  }, {
-    "place" : "Reykjanes Ridge",
-    "magnitude" : 4.9,
-    "latitude" : 58.3017,
-    "longitude" : -31.7606,
-    "depthKm" : 10.0,
-    "timestampEpochMs" : 1795224379109,
-    "severity" : "MEDIUM",
-    "reasons" : [ "Magnitude M4.9 >= M4.5" ]
-  }, {
-    "place" : "38 km NE of Calama, Chile",
-    "magnitude" : 4.7,
-    "latitude" : -22.2307,
-    "longitude" : -68.6409,
-    "depthKm" : 120.01,
-    "timestampEpochMs" : 1795224249274,
-    "severity" : "MEDIUM",
-    "reasons" : [ "Magnitude M4.7 >= M4.5" ]
+    "reasons" : [ "Magnitude M4.6 >= M4.5" ]
   }, {
     "place" : "68 km SSE of Tateyama, Japan",
     "magnitude" : 4.6,
@@ -136,15 +109,6 @@
     "severity" : "LOW",
     "reasons" : [ "Within 146.0 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "41 km ENE of Maneadero, B.C., MX",
-    "magnitude" : 2.7,
-    "latitude" : 31.867,
-    "longitude" : -116.17233,
-    "depthKm" : 11.46,
-    "timestampEpochMs" : 1795219803910,
-    "severity" : "LOW",
-    "reasons" : [ "Within 132.5 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
     "place" : "6 km NNW of Delta, B.C., MX",
     "magnitude" : 2.62,
     "latitude" : 32.40217,
@@ -172,14 +136,23 @@
     "severity" : "LOW",
     "reasons" : [ "Within 195.4 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "10 km WSW of Niland, CA",
-    "magnitude" : 1.69,
-    "latitude" : 33.19217,
-    "longitude" : -115.60483,
-    "depthKm" : 2.77,
-    "timestampEpochMs" : 1795227428240,
+    "place" : "8 km SE of San Pedro, CA",
+    "magnitude" : 1.85,
+    "latitude" : 33.68433,
+    "longitude" : -118.2335,
+    "depthKm" : 4.99,
+    "timestampEpochMs" : 1795302415870,
     "severity" : "LOW",
-    "reasons" : [ "Within 154.6 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 146.8 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "14 km N of Warner Springs, CA",
+    "magnitude" : 1.78,
+    "latitude" : 33.409,
+    "longitude" : -116.65233,
+    "depthKm" : 4.69,
+    "timestampEpochMs" : 1795308238340,
+    "severity" : "LOW",
+    "reasons" : [ "Within 90.5 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "8 km SE of San Pedro, CA",
     "magnitude" : 1.62,
@@ -216,6 +189,15 @@
     "timestampEpochMs" : 1795284473680,
     "severity" : "LOW",
     "reasons" : [ "Within 112.0 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "5 km S of Banning, CA",
+    "magnitude" : 1.25,
+    "latitude" : 33.884,
+    "longitude" : -116.86667,
+    "depthKm" : 13.72,
+    "timestampEpochMs" : 1795310782410,
+    "severity" : "LOW",
+    "reasons" : [ "Within 132.8 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "5 km SW of Cabazon, CA",
     "magnitude" : 1.25,
@@ -298,15 +280,6 @@
     "severity" : "LOW",
     "reasons" : [ "Within 107.4 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "3 km WNW of Loma Linda, CA",
-    "magnitude" : 0.72,
-    "latitude" : 34.05633,
-    "longitude" : -117.287,
-    "depthKm" : 15.97,
-    "timestampEpochMs" : 1795227891270,
-    "severity" : "LOW",
-    "reasons" : [ "Within 149.5 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
     "place" : "13 km NE of Thousand Palms, CA",
     "magnitude" : 0.7,
     "latitude" : 33.88867,
@@ -325,6 +298,15 @@
     "severity" : "LOW",
     "reasons" : [ "Within 139.5 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
+    "place" : "8 km S of Idyllwild, CA",
+    "magnitude" : 0.6,
+    "latitude" : 33.67033,
+    "longitude" : -116.716,
+    "depthKm" : 14.65,
+    "timestampEpochMs" : 1795305471900,
+    "severity" : "LOW",
+    "reasons" : [ "Within 113.9 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
     "place" : "13 km SE of Anza, CA",
     "magnitude" : 0.59,
     "latitude" : 33.4705,
@@ -333,6 +315,15 @@
     "timestampEpochMs" : 1795292186660,
     "severity" : "LOW",
     "reasons" : [ "Within 99.9 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "12 km N of Borrego Springs, CA",
+    "magnitude" : 0.58,
+    "latitude" : 33.36583,
+    "longitude" : -116.38633,
+    "depthKm" : 29.56,
+    "timestampEpochMs" : 1795308313890,
+    "severity" : "LOW",
+    "reasons" : [ "Within 102.2 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "3 km SSE of Lake Henshaw, CA",
     "magnitude" : 0.58,
