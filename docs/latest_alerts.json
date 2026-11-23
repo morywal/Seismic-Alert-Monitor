@@ -1,6 +1,15 @@
 {
-  "generatedAtUtc" : "2026-11-22T18:37:41Z",
+  "generatedAtUtc" : "2026-11-23T00:07:36Z",
   "alerts" : [ {
+    "place" : "9 km N of Carhuamayo, Peru",
+    "magnitude" : 5.4,
+    "latitude" : -10.8345,
+    "longitude" : -76.0169,
+    "depthKm" : 117.396,
+    "timestampEpochMs" : 1795383331763,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M5.4 >= M4.5" ]
+  }, {
     "place" : "224 km NE of Bitung, Indonesia",
     "magnitude" : 5.4,
     "latitude" : 3.0314,
@@ -28,6 +37,15 @@
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M5.0 >= M4.5" ]
   }, {
+    "place" : "170 km WNW of Port-Olry, Vanuatu",
+    "magnitude" : 4.9,
+    "latitude" : -14.1955,
+    "longitude" : 165.7555,
+    "depthKm" : 10.0,
+    "timestampEpochMs" : 1795384695571,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M4.9 >= M4.5" ]
+  }, {
     "place" : "south of the Fiji Islands",
     "magnitude" : 4.9,
     "latitude" : -24.3316,
@@ -46,14 +64,14 @@
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M4.9 >= M4.5" ]
   }, {
-    "place" : "88 km WNW of El Aguilar, Argentina",
-    "magnitude" : 4.9,
-    "latitude" : -23.0294,
-    "longitude" : -66.519,
-    "depthKm" : 209.784,
-    "timestampEpochMs" : 1795287784170,
+    "place" : "25 km WSW of Isangel, Vanuatu",
+    "magnitude" : 4.7,
+    "latitude" : -19.6421,
+    "longitude" : 169.0592,
+    "depthKm" : 115.367,
+    "timestampEpochMs" : 1795380892753,
     "severity" : "MEDIUM",
-    "reasons" : [ "Magnitude M4.9 >= M4.5" ]
+    "reasons" : [ "Magnitude M4.7 >= M4.5" ]
   }, {
     "place" : "south of the Fiji Islands",
     "magnitude" : 4.6,
@@ -64,32 +82,41 @@
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M4.6 >= M4.5" ]
   }, {
-    "place" : "60 km WNW of Abepura, Indonesia",
+    "place" : "55 km S of Kūh Sefīd, Iran",
     "magnitude" : 4.6,
-    "latitude" : -2.442,
-    "longitude" : 140.1129,
-    "depthKm" : 31.078,
-    "timestampEpochMs" : 1795302965571,
+    "latitude" : 28.7784,
+    "longitude" : 56.8102,
+    "depthKm" : 10.0,
+    "timestampEpochMs" : 1795359946361,
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M4.6 >= M4.5" ]
   }, {
-    "place" : "11 km WNW of Calipatria, CA",
-    "magnitude" : 2.59,
-    "latitude" : 33.15517,
-    "longitude" : -115.63217,
-    "depthKm" : 3.11,
-    "timestampEpochMs" : 1795297591560,
-    "severity" : "LOW",
-    "reasons" : [ "Within 150.8 km of target (32.7157, -117.1611) <= 250 km" ]
+    "place" : "54 km NNE of Calama, Chile",
+    "magnitude" : 4.5,
+    "latitude" : -21.9972,
+    "longitude" : -68.7311,
+    "depthKm" : 123.268,
+    "timestampEpochMs" : 1795384052112,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M4.5 >= M4.5" ]
   }, {
-    "place" : "8 km SE of San Pedro, CA",
-    "magnitude" : 1.85,
-    "latitude" : 33.68433,
-    "longitude" : -118.2335,
-    "depthKm" : 4.99,
-    "timestampEpochMs" : 1795302415870,
+    "place" : "south of the Fiji Islands",
+    "magnitude" : 4.5,
+    "latitude" : -22.0776,
+    "longitude" : -178.1773,
+    "depthKm" : 381.828,
+    "timestampEpochMs" : 1795381181943,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M4.5 >= M4.5" ]
+  }, {
+    "place" : "55 km SE of Campo, CA",
+    "magnitude" : 1.94,
+    "latitude" : 32.2185,
+    "longitude" : -116.11117,
+    "depthKm" : 16.39,
+    "timestampEpochMs" : 1795391092190,
     "severity" : "LOW",
-    "reasons" : [ "Within 146.8 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 113.0 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "5 km SW of Anza, CA",
     "magnitude" : 1.78,
@@ -118,6 +145,15 @@
     "severity" : "LOW",
     "reasons" : [ "Within 155.1 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
+    "place" : "7 km SW of Niland, CA",
+    "magnitude" : 1.45,
+    "latitude" : 33.20383,
+    "longitude" : -115.582,
+    "depthKm" : 2.99,
+    "timestampEpochMs" : 1795389040850,
+    "severity" : "LOW",
+    "reasons" : [ "Within 157.0 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
     "place" : "7 km S of Ontario, CA",
     "magnitude" : 1.27,
     "latitude" : 33.98917,
@@ -136,23 +172,23 @@
     "severity" : "LOW",
     "reasons" : [ "Within 132.8 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "5 km SW of Cabazon, CA",
-    "magnitude" : 1.25,
-    "latitude" : 33.8845,
-    "longitude" : -116.82283,
-    "depthKm" : 22.64,
-    "timestampEpochMs" : 1795298316130,
+    "place" : "19 km SW of Ocotillo Wells, CA",
+    "magnitude" : 1.13,
+    "latitude" : 33.0335,
+    "longitude" : -116.29217,
+    "depthKm" : 6.96,
+    "timestampEpochMs" : 1795380313270,
     "severity" : "LOW",
-    "reasons" : [ "Within 133.7 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 88.5 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "16 km ENE of Borrego Springs, CA",
-    "magnitude" : 0.94,
-    "latitude" : 33.30933,
-    "longitude" : -116.2145,
-    "depthKm" : 11.17,
-    "timestampEpochMs" : 1795294099040,
+    "place" : "11 km NNE of Yucaipa, CA",
+    "magnitude" : 1.04,
+    "latitude" : 34.11617,
+    "longitude" : -116.9815,
+    "depthKm" : 5.9,
+    "timestampEpochMs" : 1795378251110,
     "severity" : "LOW",
-    "reasons" : [ "Within 110.2 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 156.6 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "11 km SSE of San Clemente, CA",
     "magnitude" : 0.92,
@@ -163,6 +199,15 @@
     "severity" : "LOW",
     "reasons" : [ "Within 78.6 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
+    "place" : "13 km N of Banning, CA",
+    "magnitude" : 0.89,
+    "latitude" : 34.04667,
+    "longitude" : -116.86833,
+    "depthKm" : 15.55,
+    "timestampEpochMs" : 1795378214240,
+    "severity" : "LOW",
+    "reasons" : [ "Within 150.5 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
     "place" : "18 km SSW of Oasis, CA",
     "magnitude" : 0.77,
     "latitude" : 33.3285,
@@ -171,6 +216,15 @@
     "timestampEpochMs" : 1795366082750,
     "severity" : "LOW",
     "reasons" : [ "Within 113.1 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "11 km WNW of Garnet, CA",
+    "magnitude" : 0.69,
+    "latitude" : 33.95217,
+    "longitude" : -116.64367,
+    "depthKm" : 13.93,
+    "timestampEpochMs" : 1795385146940,
+    "severity" : "LOW",
+    "reasons" : [ "Within 145.6 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "17 km SW of Oasis, CA",
     "magnitude" : 0.69,
@@ -190,23 +244,23 @@
     "severity" : "LOW",
     "reasons" : [ "Within 116.5 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "8 km S of Idyllwild, CA",
-    "magnitude" : 0.6,
-    "latitude" : 33.67033,
-    "longitude" : -116.716,
-    "depthKm" : 14.65,
-    "timestampEpochMs" : 1795305471900,
+    "place" : "7 km SSW of Idyllwild, CA",
+    "magnitude" : 0.66,
+    "latitude" : 33.6825,
+    "longitude" : -116.7385,
+    "depthKm" : 14.44,
+    "timestampEpochMs" : 1795382962390,
     "severity" : "LOW",
-    "reasons" : [ "Within 113.9 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 114.5 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "13 km SE of Anza, CA",
-    "magnitude" : 0.59,
-    "latitude" : 33.4705,
-    "longitude" : -116.57867,
-    "depthKm" : 5.94,
-    "timestampEpochMs" : 1795292186660,
+    "place" : "17 km ESE of Anza, CA",
+    "magnitude" : 0.63,
+    "latitude" : 33.4825,
+    "longitude" : -116.51417,
+    "depthKm" : 12.66,
+    "timestampEpochMs" : 1795386043930,
     "severity" : "LOW",
-    "reasons" : [ "Within 99.9 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 104.4 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "12 km N of Borrego Springs, CA",
     "magnitude" : 0.58,
@@ -217,14 +271,14 @@
     "severity" : "LOW",
     "reasons" : [ "Within 102.2 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "3 km WSW of Anza, CA",
-    "magnitude" : 0.42,
-    "latitude" : 33.5395,
-    "longitude" : -116.70317,
-    "depthKm" : 5.34,
-    "timestampEpochMs" : 1795301669120,
+    "place" : "4 km WSW of Anza, CA",
+    "magnitude" : 0.53,
+    "latitude" : 33.53733,
+    "longitude" : -116.707,
+    "depthKm" : 6.3,
+    "timestampEpochMs" : 1795382981620,
     "severity" : "LOW",
-    "reasons" : [ "Within 101.0 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 100.7 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "4 km WSW of Anza, CA",
     "magnitude" : 0.41,
