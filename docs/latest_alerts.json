@@ -1,5 +1,5 @@
 {
-  "generatedAtUtc" : "2026-11-24T15:42:26Z",
+  "generatedAtUtc" : "2026-11-25T00:30:30Z",
   "alerts" : [ {
     "place" : "Mauritius - Reunion region",
     "magnitude" : 6.4,
@@ -28,6 +28,15 @@
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M5.2 >= M4.5" ]
   }, {
+    "place" : "209 km SE of Kokopo, Papua New Guinea",
+    "magnitude" : 5.0,
+    "latitude" : -5.6002,
+    "longitude" : 153.6843,
+    "depthKm" : 10.0,
+    "timestampEpochMs" : 1795554701618,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M5.0 >= M4.5" ]
+  }, {
     "place" : "24 km WNW of Piti Village, Guam",
     "magnitude" : 5.0,
     "latitude" : 13.5637,
@@ -46,12 +55,30 @@
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M4.8 >= M4.5" ]
   }, {
-    "place" : "130 km SSW of Merizo Village, Guam",
+    "place" : "2 km NNW of Cabatuan, Philippines",
+    "magnitude" : 4.7,
+    "latitude" : 10.9039,
+    "longitude" : 122.4796,
+    "depthKm" : 35.846,
+    "timestampEpochMs" : 1795562995097,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M4.7 >= M4.5" ]
+  }, {
+    "place" : "18 km ESE of Güvercinlik, Turkey",
+    "magnitude" : 4.7,
+    "latitude" : 37.0918,
+    "longitude" : 27.779,
+    "depthKm" : 10.0,
+    "timestampEpochMs" : 1795534783392,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M4.7 >= M4.5" ]
+  }, {
+    "place" : "49 km SW of Ovalle, Chile",
     "magnitude" : 4.6,
-    "latitude" : 12.276,
-    "longitude" : 144.0194,
-    "depthKm" : 35.0,
-    "timestampEpochMs" : 1795469133408,
+    "latitude" : -30.9455,
+    "longitude" : -71.5206,
+    "depthKm" : 50.858,
+    "timestampEpochMs" : 1795552077411,
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M4.6 >= M4.5" ]
   }, {
@@ -64,23 +91,50 @@
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M4.5 >= M4.5" ]
   }, {
-    "place" : "1 km N of Malibu, CA",
-    "magnitude" : 2.16,
-    "latitude" : 34.01317,
-    "longitude" : -118.80983,
-    "depthKm" : 9.08,
-    "timestampEpochMs" : 1795481196320,
+    "place" : "6 km N of Aguanga, CA",
+    "magnitude" : 2.31,
+    "latitude" : 33.49433,
+    "longitude" : -116.87383,
+    "depthKm" : 4.82,
+    "timestampEpochMs" : 1795552140100,
     "severity" : "LOW",
-    "reasons" : [ "Within 210.4 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 90.6 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "38 km SE of Santa Cruz Is. (E end), CA",
-    "magnitude" : 1.9,
-    "latitude" : 33.78733,
-    "longitude" : -119.23783,
-    "depthKm" : -0.14,
-    "timestampEpochMs" : 1795523831590,
+    "place" : "5 km W of Malibu, CA",
+    "magnitude" : 2.1,
+    "latitude" : 34.00567,
+    "longitude" : -118.86483,
+    "depthKm" : 7.32,
+    "timestampEpochMs" : 1795492917790,
     "severity" : "LOW",
-    "reasons" : [ "Within 226.9 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 213.6 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "1 km NNE of Malibu, CA",
+    "magnitude" : 2.1,
+    "latitude" : 34.0115,
+    "longitude" : -118.806,
+    "depthKm" : 9.69,
+    "timestampEpochMs" : 1795481196170,
+    "severity" : "LOW",
+    "reasons" : [ "Within 210.0 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "36 km NNW of Santa Barbara Is., CA",
+    "magnitude" : 1.95,
+    "latitude" : 33.7605,
+    "longitude" : -119.234,
+    "depthKm" : 1.05,
+    "timestampEpochMs" : 1795523831120,
+    "severity" : "LOW",
+    "reasons" : [ "Within 225.1 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "8 km WSW of Hermosa Beach, CA",
+    "magnitude" : 1.88,
+    "latitude" : 33.84417,
+    "longitude" : -118.4795,
+    "depthKm" : 14.27,
+    "timestampEpochMs" : 1795484275600,
+    "severity" : "LOW",
+    "reasons" : [ "Within 175.4 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "13 km N of Borrego Springs, CA",
     "magnitude" : 1.87,
@@ -91,41 +145,32 @@
     "severity" : "LOW",
     "reasons" : [ "Within 102.3 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "5 km NE of Bradbury, CA",
-    "magnitude" : 1.67,
-    "latitude" : 34.17717,
-    "longitude" : -117.92883,
-    "depthKm" : 0.74,
-    "timestampEpochMs" : 1795463763600,
+    "place" : "4 km NW of El Centro, CA",
+    "magnitude" : 1.71,
+    "latitude" : 32.81233,
+    "longitude" : -115.5825,
+    "depthKm" : 11.66,
+    "timestampEpochMs" : 1795546796430,
     "severity" : "LOW",
-    "reasons" : [ "Within 177.4 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
-    "place" : "4 km SE of Marina del Rey, CA",
-    "magnitude" : 1.6,
-    "latitude" : 33.9605,
-    "longitude" : -118.42117,
-    "depthKm" : 4.08,
-    "timestampEpochMs" : 1795484277600,
-    "severity" : "LOW",
-    "reasons" : [ "Within 181.3 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 148.0 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "3 km SE of Marina del Rey, CA",
-    "magnitude" : 1.58,
-    "latitude" : 33.961,
-    "longitude" : -118.433,
-    "depthKm" : 14.95,
-    "timestampEpochMs" : 1795493576660,
+    "magnitude" : 1.55,
+    "latitude" : 33.96,
+    "longitude" : -118.43133,
+    "depthKm" : 15.25,
+    "timestampEpochMs" : 1795493576620,
     "severity" : "LOW",
-    "reasons" : [ "Within 182.0 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 181.8 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "18 km WSW of Delta, B.C., MX",
-    "magnitude" : 1.43,
-    "latitude" : 32.27883,
-    "longitude" : -115.36567,
-    "depthKm" : 0.86,
-    "timestampEpochMs" : 1795500629290,
+    "place" : "19 km WSW of Delta, B.C., MX",
+    "magnitude" : 1.37,
+    "latitude" : 32.277,
+    "longitude" : -115.3715,
+    "depthKm" : 0.0,
+    "timestampEpochMs" : 1795500629210,
     "severity" : "LOW",
-    "reasons" : [ "Within 175.2 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 174.8 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "16 km ENE of Campo, CA",
     "magnitude" : 1.07,
@@ -136,15 +181,6 @@
     "severity" : "LOW",
     "reasons" : [ "Within 80.0 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "5 km S of Banning, CA",
-    "magnitude" : 1.05,
-    "latitude" : 33.87717,
-    "longitude" : -116.87983,
-    "depthKm" : 13.93,
-    "timestampEpochMs" : 1795520804250,
-    "severity" : "LOW",
-    "reasons" : [ "Within 131.8 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
     "place" : "3 km ENE of Moreno Valley, CA",
     "magnitude" : 1.03,
     "latitude" : 33.932,
@@ -154,85 +190,148 @@
     "severity" : "LOW",
     "reasons" : [ "Within 135.3 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "7 km NW of La Mesa, CA",
-    "magnitude" : 1.02,
-    "latitude" : 32.81183,
-    "longitude" : -117.0775,
-    "depthKm" : 5.45,
-    "timestampEpochMs" : 1795474351710,
+    "place" : "14 km WSW of Ocotillo Wells, CA",
+    "magnitude" : 1.0,
+    "latitude" : 33.11317,
+    "longitude" : -116.273,
+    "depthKm" : 11.87,
+    "timestampEpochMs" : 1795560311820,
     "severity" : "LOW",
-    "reasons" : [ "Within 13.2 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 93.9 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "5 km S of Banning, CA",
+    "magnitude" : 1.0,
+    "latitude" : 33.87767,
+    "longitude" : -116.88017,
+    "depthKm" : 14.04,
+    "timestampEpochMs" : 1795520804210,
+    "severity" : "LOW",
+    "reasons" : [ "Within 131.8 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "3 km E of Moreno Valley, CA",
-    "magnitude" : 1.01,
-    "latitude" : 33.929,
-    "longitude" : -117.19317,
-    "depthKm" : 13.23,
-    "timestampEpochMs" : 1795490544120,
+    "magnitude" : 1.0,
+    "latitude" : 33.93017,
+    "longitude" : -117.194,
+    "depthKm" : 13.73,
+    "timestampEpochMs" : 1795490544050,
     "severity" : "LOW",
-    "reasons" : [ "Within 134.9 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 135.1 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "3 km WSW of Baldwin Hills, CA",
-    "magnitude" : 0.99,
-    "latitude" : 33.9905,
-    "longitude" : -118.3955,
-    "depthKm" : 13.35,
-    "timestampEpochMs" : 1795515850930,
-    "severity" : "LOW",
-    "reasons" : [ "Within 182.3 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
-    "place" : "9 km SE of Valle Vista, CA",
+    "place" : "5 km S of Idyllwild, CA",
     "magnitude" : 0.79,
-    "latitude" : 33.69817,
-    "longitude" : -116.81183,
-    "depthKm" : 16.25,
-    "timestampEpochMs" : 1795508899760,
+    "latitude" : 33.695,
+    "longitude" : -116.70933,
+    "depthKm" : 16.75,
+    "timestampEpochMs" : 1795542399350,
     "severity" : "LOW",
-    "reasons" : [ "Within 114.0 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 116.7 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "11 km NNW of Anza, CA",
-    "magnitude" : 0.7,
-    "latitude" : 33.6385,
-    "longitude" : -116.732,
-    "depthKm" : 13.14,
-    "timestampEpochMs" : 1795493098610,
+    "place" : "16 km ESE of Anza, CA",
+    "magnitude" : 0.76,
+    "latitude" : 33.4825,
+    "longitude" : -116.52233,
+    "depthKm" : 11.94,
+    "timestampEpochMs" : 1795544338090,
     "severity" : "LOW",
-    "reasons" : [ "Within 110.1 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 104.0 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "8 km WNW of Anza, CA",
+    "place" : "9 km ESE of Valle Vista, CA",
+    "magnitude" : 0.75,
+    "latitude" : 33.70267,
+    "longitude" : -116.80967,
+    "depthKm" : 15.94,
+    "timestampEpochMs" : 1795508899750,
+    "severity" : "LOW",
+    "reasons" : [ "Within 114.5 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "9 km WNW of Anza, CA",
     "magnitude" : 0.67,
-    "latitude" : 33.58017,
-    "longitude" : -116.76,
-    "depthKm" : 12.45,
-    "timestampEpochMs" : 1795508605510,
+    "latitude" : 33.58033,
+    "longitude" : -116.76067,
+    "depthKm" : 12.84,
+    "timestampEpochMs" : 1795508605440,
     "severity" : "LOW",
     "reasons" : [ "Within 103.1 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "9 km SSW of Borrego Springs, CA",
-    "magnitude" : 0.57,
-    "latitude" : 33.17533,
-    "longitude" : -116.39467,
-    "depthKm" : 8.87,
-    "timestampEpochMs" : 1795498130440,
+    "place" : "11 km S of Idyllwild, CA",
+    "magnitude" : 0.64,
+    "latitude" : 33.64167,
+    "longitude" : -116.73267,
+    "depthKm" : 13.13,
+    "timestampEpochMs" : 1795493098570,
     "severity" : "LOW",
-    "reasons" : [ "Within 87.9 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 110.4 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "6 km S of Idyllwild, CA",
+    "magnitude" : 0.57,
+    "latitude" : 33.68233,
+    "longitude" : -116.7215,
+    "depthKm" : 14.78,
+    "timestampEpochMs" : 1795539544020,
+    "severity" : "LOW",
+    "reasons" : [ "Within 115.0 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "9 km SSW of Borrego Springs, CA",
+    "magnitude" : 0.55,
+    "latitude" : 33.174,
+    "longitude" : -116.39917,
+    "depthKm" : 9.88,
+    "timestampEpochMs" : 1795498130410,
+    "severity" : "LOW",
+    "reasons" : [ "Within 87.5 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "11 km SE of Winchester, CA",
-    "magnitude" : 0.49,
-    "latitude" : 33.63933,
-    "longitude" : -117.00483,
-    "depthKm" : 11.82,
-    "timestampEpochMs" : 1795486886010,
+    "magnitude" : 0.5,
+    "latitude" : 33.63883,
+    "longitude" : -117.0055,
+    "depthKm" : 11.92,
+    "timestampEpochMs" : 1795486885970,
     "severity" : "LOW",
     "reasons" : [ "Within 103.7 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "23 km E of Julian, CA",
+    "place" : "22 km E of Julian, CA",
     "magnitude" : 0.47,
-    "latitude" : 33.04717,
-    "longitude" : -116.3615,
-    "depthKm" : 13.46,
-    "timestampEpochMs" : 1795515696350,
+    "latitude" : 33.04583,
+    "longitude" : -116.36383,
+    "depthKm" : 13.41,
+    "timestampEpochMs" : 1795515696390,
     "severity" : "LOW",
-    "reasons" : [ "Within 83.3 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 83.0 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "6 km N of Lake Henshaw, CA",
+    "magnitude" : 0.42,
+    "latitude" : 33.29717,
+    "longitude" : -116.7675,
+    "depthKm" : 10.21,
+    "timestampEpochMs" : 1795546608610,
+    "severity" : "LOW",
+    "reasons" : [ "Within 74.3 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "2 km NE of Sunland, CA",
+    "magnitude" : 0.33,
+    "latitude" : 34.26867,
+    "longitude" : -118.29017,
+    "depthKm" : 6.84,
+    "timestampEpochMs" : 1795515854870,
+    "severity" : "LOW",
+    "reasons" : [ "Within 201.9 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "15 km N of Warner Springs, CA",
+    "magnitude" : 0.06,
+    "latitude" : 33.41983,
+    "longitude" : -116.64,
+    "depthKm" : 7.69,
+    "timestampEpochMs" : 1795508939430,
+    "severity" : "LOW",
+    "reasons" : [ "Within 92.1 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "4 km WSW of Anza, CA",
+    "magnitude" : -0.07,
+    "latitude" : 33.53817,
+    "longitude" : -116.7095,
+    "depthKm" : 5.49,
+    "timestampEpochMs" : 1795526362890,
+    "severity" : "LOW",
+    "reasons" : [ "Within 100.7 km of target (32.7157, -117.1611) <= 250 km" ]
   } ]
 }
