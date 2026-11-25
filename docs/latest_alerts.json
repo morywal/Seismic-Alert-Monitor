@@ -1,15 +1,6 @@
 {
-  "generatedAtUtc" : "2026-11-25T09:42:44Z",
+  "generatedAtUtc" : "2026-11-25T19:51:27Z",
   "alerts" : [ {
-    "place" : "Mauritius - Reunion region",
-    "magnitude" : 6.4,
-    "latitude" : -17.7049,
-    "longitude" : 65.6995,
-    "depthKm" : 10.0,
-    "timestampEpochMs" : 1795518374036,
-    "severity" : "MEDIUM",
-    "reasons" : [ "Magnitude M6.4 >= M4.5" ]
-  }, {
     "place" : "Balleny Islands region",
     "magnitude" : 5.9,
     "latitude" : -63.0918,
@@ -37,14 +28,14 @@
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M5.2 >= M4.5" ]
   }, {
-    "place" : "93 km WSW of Puerto Madero, Mexico",
-    "magnitude" : 5.2,
-    "latitude" : 14.442,
-    "longitude" : -93.2417,
-    "depthKm" : 35.0,
-    "timestampEpochMs" : 1795521104702,
+    "place" : "67 km NNE of Luwuk, Indonesia",
+    "magnitude" : 5.0,
+    "latitude" : -0.3849,
+    "longitude" : 123.0018,
+    "depthKm" : 106.384,
+    "timestampEpochMs" : 1795608492731,
     "severity" : "MEDIUM",
-    "reasons" : [ "Magnitude M5.2 >= M4.5" ]
+    "reasons" : [ "Magnitude M5.0 >= M4.5" ]
   }, {
     "place" : "209 km SE of Kokopo, Papua New Guinea",
     "magnitude" : 5.0,
@@ -54,24 +45,6 @@
     "timestampEpochMs" : 1795554701618,
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M5.0 >= M4.5" ]
-  }, {
-    "place" : "24 km WNW of Piti Village, Guam",
-    "magnitude" : 5.0,
-    "latitude" : 13.5637,
-    "longitude" : 144.4957,
-    "depthKm" : 107.571,
-    "timestampEpochMs" : 1795521313018,
-    "severity" : "MEDIUM",
-    "reasons" : [ "Magnitude M5.0 >= M4.5" ]
-  }, {
-    "place" : "71 km W of Vallenar, Chile",
-    "magnitude" : 4.8,
-    "latitude" : -28.6118,
-    "longitude" : -71.4886,
-    "depthKm" : 33.412,
-    "timestampEpochMs" : 1795526558945,
-    "severity" : "MEDIUM",
-    "reasons" : [ "Magnitude M4.8 >= M4.5" ]
   }, {
     "place" : "178 km ESE of Kimbe, Papua New Guinea",
     "magnitude" : 4.7,
@@ -88,15 +61,6 @@
     "longitude" : 122.4796,
     "depthKm" : 35.846,
     "timestampEpochMs" : 1795562995097,
-    "severity" : "MEDIUM",
-    "reasons" : [ "Magnitude M4.7 >= M4.5" ]
-  }, {
-    "place" : "18 km ESE of Güvercinlik, Turkey",
-    "magnitude" : 4.7,
-    "latitude" : 37.0918,
-    "longitude" : 27.779,
-    "depthKm" : 10.0,
-    "timestampEpochMs" : 1795534783392,
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M4.7 >= M4.5" ]
   }, {
@@ -127,50 +91,68 @@
     "severity" : "LOW",
     "reasons" : [ "Within 90.6 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "36 km NNW of Santa Barbara Is., CA",
-    "magnitude" : 1.95,
-    "latitude" : 33.7605,
-    "longitude" : -119.234,
-    "depthKm" : 1.05,
-    "timestampEpochMs" : 1795523831120,
+    "place" : "3 km SW of Brawley, CA",
+    "magnitude" : 1.98,
+    "latitude" : 32.95983,
+    "longitude" : -115.55867,
+    "depthKm" : 10.93,
+    "timestampEpochMs" : 1795634642220,
     "severity" : "LOW",
-    "reasons" : [ "Within 225.1 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
-    "place" : "13 km N of Borrego Springs, CA",
-    "magnitude" : 1.87,
-    "latitude" : 33.373,
-    "longitude" : -116.39317,
-    "depthKm" : 6.23,
-    "timestampEpochMs" : 1795516154760,
-    "severity" : "LOW",
-    "reasons" : [ "Within 102.3 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
-    "place" : "4 km NW of El Centro, CA",
-    "magnitude" : 1.71,
-    "latitude" : 32.81233,
-    "longitude" : -115.5825,
-    "depthKm" : 11.66,
-    "timestampEpochMs" : 1795546796430,
-    "severity" : "LOW",
-    "reasons" : [ "Within 148.0 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 152.1 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "33 km E of Primo Tapia, B.C., MX",
-    "magnitude" : 1.49,
-    "latitude" : 32.23517,
-    "longitude" : -116.565,
-    "depthKm" : 7.36,
-    "timestampEpochMs" : 1795572087650,
+    "magnitude" : 1.48,
+    "latitude" : 32.23783,
+    "longitude" : -116.56783,
+    "depthKm" : 10.88,
+    "timestampEpochMs" : 1795572087670,
     "severity" : "LOW",
-    "reasons" : [ "Within 77.3 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 76.9 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "21 km SSW of La Quinta, CA",
-    "magnitude" : 1.24,
+    "place" : "1 km WNW of Sylmar, CA",
+    "magnitude" : 1.41,
+    "latitude" : 34.31083,
+    "longitude" : -118.45967,
+    "depthKm" : 6.55,
+    "timestampEpochMs" : 1795601143520,
+    "severity" : "LOW",
+    "reasons" : [ "Within 214.4 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "18 km SSW of Oasis, CA",
+    "magnitude" : 1.23,
+    "latitude" : 33.32717,
+    "longitude" : -116.18983,
+    "depthKm" : 10.67,
+    "timestampEpochMs" : 1795626338740,
+    "severity" : "LOW",
+    "reasons" : [ "Within 113.2 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "18 km SSW of Oasis, CA",
+    "magnitude" : 1.21,
+    "latitude" : 33.32683,
+    "longitude" : -116.18767,
+    "depthKm" : 11.19,
+    "timestampEpochMs" : 1795626324190,
+    "severity" : "LOW",
+    "reasons" : [ "Within 113.4 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "22 km SSW of La Quinta, CA",
+    "magnitude" : 1.16,
     "latitude" : 33.48567,
-    "longitude" : -116.40133,
-    "depthKm" : 9.74,
-    "timestampEpochMs" : 1795580922210,
+    "longitude" : -116.4015,
+    "depthKm" : 10.14,
+    "timestampEpochMs" : 1795580922160,
     "severity" : "LOW",
     "reasons" : [ "Within 111.1 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "20 km NE of Pine Valley, CA",
+    "magnitude" : 1.07,
+    "latitude" : 32.92633,
+    "longitude" : -116.35383,
+    "depthKm" : 7.23,
+    "timestampEpochMs" : 1795628430920,
+    "severity" : "LOW",
+    "reasons" : [ "Within 79.0 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "14 km WSW of Ocotillo Wells, CA",
     "magnitude" : 1.0,
@@ -181,15 +163,6 @@
     "severity" : "LOW",
     "reasons" : [ "Within 93.9 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "5 km S of Banning, CA",
-    "magnitude" : 1.0,
-    "latitude" : 33.87767,
-    "longitude" : -116.88017,
-    "depthKm" : 14.04,
-    "timestampEpochMs" : 1795520804210,
-    "severity" : "LOW",
-    "reasons" : [ "Within 131.8 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
     "place" : "12 km NE of Coachella, CA",
     "magnitude" : 0.96,
     "latitude" : 33.75417,
@@ -199,23 +172,23 @@
     "severity" : "LOW",
     "reasons" : [ "Within 152.8 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "5 km S of Idyllwild, CA",
-    "magnitude" : 0.79,
-    "latitude" : 33.695,
-    "longitude" : -116.70933,
-    "depthKm" : 16.75,
-    "timestampEpochMs" : 1795542399350,
+    "place" : "1 km N of Silver Lake, CA",
+    "magnitude" : 0.84,
+    "latitude" : 34.1045,
+    "longitude" : -118.26333,
+    "depthKm" : 11.92,
+    "timestampEpochMs" : 1795603200120,
     "severity" : "LOW",
-    "reasons" : [ "Within 116.7 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 185.2 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "16 km ESE of Anza, CA",
+    "place" : "21 km SSW of La Quinta, CA",
     "magnitude" : 0.76,
-    "latitude" : 33.4825,
-    "longitude" : -116.52233,
-    "depthKm" : 11.94,
-    "timestampEpochMs" : 1795544338090,
+    "latitude" : 33.4885,
+    "longitude" : -116.39467,
+    "depthKm" : 10.03,
+    "timestampEpochMs" : 1795580937950,
     "severity" : "LOW",
-    "reasons" : [ "Within 104.0 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 111.7 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "20 km E of Julian, CA",
     "magnitude" : 0.72,
@@ -226,49 +199,31 @@
     "severity" : "LOW",
     "reasons" : [ "Within 81.9 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "6 km S of Idyllwild, CA",
-    "magnitude" : 0.57,
-    "latitude" : 33.68233,
-    "longitude" : -116.7215,
-    "depthKm" : 14.78,
-    "timestampEpochMs" : 1795539544020,
+    "place" : "5 km SW of Idyllwild, CA",
+    "magnitude" : 0.7,
+    "latitude" : 33.70567,
+    "longitude" : -116.75883,
+    "depthKm" : 15.89,
+    "timestampEpochMs" : 1795607378190,
     "severity" : "LOW",
-    "reasons" : [ "Within 115.0 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 116.3 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "22 km E of Julian, CA",
-    "magnitude" : 0.47,
-    "latitude" : 33.04583,
-    "longitude" : -116.36383,
-    "depthKm" : 13.41,
-    "timestampEpochMs" : 1795515696390,
+    "place" : "12 km SSE of Anza, CA",
+    "magnitude" : 0.42,
+    "latitude" : 33.44833,
+    "longitude" : -116.641,
+    "depthKm" : 7.87,
+    "timestampEpochMs" : 1795629451380,
     "severity" : "LOW",
-    "reasons" : [ "Within 83.0 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 94.8 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "6 km N of Lake Henshaw, CA",
-    "magnitude" : 0.42,
-    "latitude" : 33.29717,
-    "longitude" : -116.7675,
-    "depthKm" : 10.21,
-    "timestampEpochMs" : 1795546608610,
+    "magnitude" : 0.35,
+    "latitude" : 33.29817,
+    "longitude" : -116.76667,
+    "depthKm" : 10.08,
+    "timestampEpochMs" : 1795618359920,
     "severity" : "LOW",
-    "reasons" : [ "Within 74.3 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
-    "place" : "2 km NE of Sunland, CA",
-    "magnitude" : 0.33,
-    "latitude" : 34.26867,
-    "longitude" : -118.29017,
-    "depthKm" : 6.84,
-    "timestampEpochMs" : 1795515854870,
-    "severity" : "LOW",
-    "reasons" : [ "Within 201.9 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
-    "place" : "4 km WSW of Anza, CA",
-    "magnitude" : -0.07,
-    "latitude" : 33.53817,
-    "longitude" : -116.7095,
-    "depthKm" : 5.49,
-    "timestampEpochMs" : 1795526362890,
-    "severity" : "LOW",
-    "reasons" : [ "Within 100.7 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 74.5 km of target (32.7157, -117.1611) <= 250 km" ]
   } ]
 }
