@@ -1,6 +1,15 @@
 {
-  "generatedAtUtc" : "2026-11-26T12:07:35Z",
+  "generatedAtUtc" : "2026-11-26T21:50:22Z",
   "alerts" : [ {
+    "place" : "Revilla Gigedo Islands region",
+    "magnitude" : 5.7,
+    "latitude" : 19.8135,
+    "longitude" : -109.2958,
+    "depthKm" : 10.0,
+    "timestampEpochMs" : 1795706804294,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M5.7 >= M4.5" ]
+  }, {
     "place" : "204 km S of Taliwang, Indonesia",
     "magnitude" : 5.5,
     "latitude" : -10.5618,
@@ -28,6 +37,15 @@
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M5.2 >= M4.5" ]
   }, {
+    "place" : "Bonin Islands, Japan region",
+    "magnitude" : 5.1,
+    "latitude" : 28.3661,
+    "longitude" : 141.2639,
+    "depthKm" : 84.59,
+    "timestampEpochMs" : 1795721588628,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M5.1 >= M4.5" ]
+  }, {
     "place" : "184 km N of Hicks Bay, New Zealand",
     "magnitude" : 5.0,
     "latitude" : -35.934,
@@ -37,32 +55,14 @@
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M5.0 >= M4.5" ]
   }, {
-    "place" : "67 km NNE of Luwuk, Indonesia",
-    "magnitude" : 5.0,
-    "latitude" : -0.3849,
-    "longitude" : 123.0018,
-    "depthKm" : 106.384,
-    "timestampEpochMs" : 1795608492731,
-    "severity" : "MEDIUM",
-    "reasons" : [ "Magnitude M5.0 >= M4.5" ]
-  }, {
-    "place" : "190 km N of Hicks Bay, New Zealand",
+    "place" : "225 km S of Taliwang, Indonesia",
     "magnitude" : 4.8,
-    "latitude" : -35.8989,
-    "longitude" : 178.5511,
+    "latitude" : -10.773,
+    "longitude" : 117.1007,
     "depthKm" : 10.0,
-    "timestampEpochMs" : 1795642353545,
+    "timestampEpochMs" : 1795683641073,
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M4.8 >= M4.5" ]
-  }, {
-    "place" : "13 km NW of Port-Vila, Vanuatu",
-    "magnitude" : 4.7,
-    "latitude" : -17.6508,
-    "longitude" : 168.224,
-    "depthKm" : 51.54,
-    "timestampEpochMs" : 1795633169141,
-    "severity" : "MEDIUM",
-    "reasons" : [ "Magnitude M4.7 >= M4.5" ]
   }, {
     "place" : "97 km SW of Puerto Madero, Mexico",
     "magnitude" : 4.6,
@@ -72,6 +72,15 @@
     "timestampEpochMs" : 1795663828511,
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M4.6 >= M4.5" ]
+  }, {
+    "place" : "95 km SSE of Sarangani, Philippines",
+    "magnitude" : 4.5,
+    "latitude" : 4.6618,
+    "longitude" : 125.9086,
+    "depthKm" : 173.297,
+    "timestampEpochMs" : 1795709880760,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M4.5 >= M4.5" ]
   }, {
     "place" : "27 km NW of Ocotillo, CA",
     "magnitude" : 3.58,
@@ -90,6 +99,24 @@
     "timestampEpochMs" : 1795677802240,
     "severity" : "LOW",
     "reasons" : [ "Within 89.1 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "27 km NW of Ocotillo, CA",
+    "magnitude" : 2.71,
+    "latitude" : 32.87583,
+    "longitude" : -116.228,
+    "depthKm" : 9.92,
+    "timestampEpochMs" : 1795695391040,
+    "severity" : "LOW",
+    "reasons" : [ "Within 89.0 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "8 km SW of Niland, CA",
+    "magnitude" : 2.47,
+    "latitude" : 33.18383,
+    "longitude" : -115.56867,
+    "depthKm" : 2.99,
+    "timestampEpochMs" : 1795724554080,
+    "severity" : "LOW",
+    "reasons" : [ "Within 157.4 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "27 km NW of Ocotillo, CA",
     "magnitude" : 2.34,
@@ -111,21 +138,12 @@
   }, {
     "place" : "27 km NW of Ocotillo, CA",
     "magnitude" : 1.93,
-    "latitude" : 32.87517,
-    "longitude" : -116.22633,
-    "depthKm" : 10.05,
-    "timestampEpochMs" : 1795681318410,
+    "latitude" : 32.87667,
+    "longitude" : -116.22133,
+    "depthKm" : 10.44,
+    "timestampEpochMs" : 1795681318350,
     "severity" : "LOW",
-    "reasons" : [ "Within 89.2 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
-    "place" : "3 km SW of Brawley, CA",
-    "magnitude" : 1.93,
-    "latitude" : 32.959,
-    "longitude" : -115.55517,
-    "depthKm" : 11.38,
-    "timestampEpochMs" : 1795634642190,
-    "severity" : "LOW",
-    "reasons" : [ "Within 152.5 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 89.6 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "27 km NW of Ocotillo, CA",
     "magnitude" : 1.83,
@@ -145,6 +163,15 @@
     "severity" : "LOW",
     "reasons" : [ "Within 89.7 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
+    "place" : "5 km NE of Westmorland, CA",
+    "magnitude" : 1.54,
+    "latitude" : 33.072,
+    "longitude" : -115.5935,
+    "depthKm" : 10.2,
+    "timestampEpochMs" : 1795713590370,
+    "severity" : "LOW",
+    "reasons" : [ "Within 151.6 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
     "place" : "10 km NE of Simi Valley, CA",
     "magnitude" : 1.44,
     "latitude" : 34.34267,
@@ -153,6 +180,15 @@
     "timestampEpochMs" : 1795671433310,
     "severity" : "LOW",
     "reasons" : [ "Within 228.9 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "6 km NW of Glen Avon, CA",
+    "magnitude" : 1.42,
+    "latitude" : 34.054,
+    "longitude" : -117.52367,
+    "depthKm" : 5.56,
+    "timestampEpochMs" : 1795705674110,
+    "severity" : "LOW",
+    "reasons" : [ "Within 152.6 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "27 km NW of Ocotillo, CA",
     "magnitude" : 1.35,
@@ -163,32 +199,14 @@
     "severity" : "LOW",
     "reasons" : [ "Within 89.3 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "27 km NW of Ocotillo, CA",
+    "place" : "26 km NW of Ocotillo, CA",
     "magnitude" : 1.34,
-    "latitude" : 32.87283,
-    "longitude" : -116.22467,
-    "depthKm" : 10.31,
-    "timestampEpochMs" : 1795678510890,
+    "latitude" : 32.87383,
+    "longitude" : -116.22083,
+    "depthKm" : 10.96,
+    "timestampEpochMs" : 1795678510830,
     "severity" : "LOW",
-    "reasons" : [ "Within 89.3 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
-    "place" : "18 km SSW of Oasis, CA",
-    "magnitude" : 1.23,
-    "latitude" : 33.32717,
-    "longitude" : -116.18983,
-    "depthKm" : 10.67,
-    "timestampEpochMs" : 1795626338740,
-    "severity" : "LOW",
-    "reasons" : [ "Within 113.2 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
-    "place" : "18 km SSW of Oasis, CA",
-    "magnitude" : 1.21,
-    "latitude" : 33.32683,
-    "longitude" : -116.18767,
-    "depthKm" : 11.19,
-    "timestampEpochMs" : 1795626324190,
-    "severity" : "LOW",
-    "reasons" : [ "Within 113.4 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 89.6 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "2 km NNW of Fontana, CA",
     "magnitude" : 1.16,
@@ -201,21 +219,12 @@
   }, {
     "place" : "15 km NNW of Aguanga, CA",
     "magnitude" : 1.13,
-    "latitude" : 33.56417,
-    "longitude" : -116.93767,
-    "depthKm" : 12.39,
-    "timestampEpochMs" : 1795688051790,
+    "latitude" : 33.5645,
+    "longitude" : -116.93933,
+    "depthKm" : 12.14,
+    "timestampEpochMs" : 1795688051780,
     "severity" : "LOW",
     "reasons" : [ "Within 96.6 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
-    "place" : "20 km NE of Pine Valley, CA",
-    "magnitude" : 1.07,
-    "latitude" : 32.92633,
-    "longitude" : -116.35383,
-    "depthKm" : 7.23,
-    "timestampEpochMs" : 1795628430920,
-    "severity" : "LOW",
-    "reasons" : [ "Within 79.0 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "3 km WNW of Irwindale, CA",
     "magnitude" : 1.01,
@@ -228,30 +237,39 @@
   }, {
     "place" : "6 km N of Lake Henshaw, CA",
     "magnitude" : 0.97,
-    "latitude" : 33.296,
-    "longitude" : -116.77117,
-    "depthKm" : 10.02,
-    "timestampEpochMs" : 1795676686920,
+    "latitude" : 33.29583,
+    "longitude" : -116.7725,
+    "depthKm" : 10.12,
+    "timestampEpochMs" : 1795676686910,
     "severity" : "LOW",
-    "reasons" : [ "Within 74.1 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 74.0 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "6 km N of Lake Henshaw, CA",
     "magnitude" : 0.97,
-    "latitude" : 33.29867,
+    "latitude" : 33.297,
     "longitude" : -116.77317,
-    "depthKm" : 9.97,
-    "timestampEpochMs" : 1795662608550,
+    "depthKm" : 10.32,
+    "timestampEpochMs" : 1795662608520,
     "severity" : "LOW",
-    "reasons" : [ "Within 74.2 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 74.1 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "6 km WSW of Beaumont, CA",
     "magnitude" : 0.95,
-    "latitude" : 33.90967,
-    "longitude" : -117.034,
-    "depthKm" : 14.89,
-    "timestampEpochMs" : 1795673198890,
+    "latitude" : 33.9095,
+    "longitude" : -117.0325,
+    "depthKm" : 15.83,
+    "timestampEpochMs" : 1795673198840,
     "severity" : "LOW",
     "reasons" : [ "Within 133.3 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "27 km NW of Ocotillo, CA",
+    "magnitude" : 0.91,
+    "latitude" : 32.87167,
+    "longitude" : -116.2265,
+    "depthKm" : 9.5,
+    "timestampEpochMs" : 1795698187510,
+    "severity" : "LOW",
+    "reasons" : [ "Within 89.1 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "3 km SE of Lake Henshaw, CA",
     "magnitude" : 0.9,
@@ -264,12 +282,12 @@
   }, {
     "place" : "9 km S of Idyllwild, CA",
     "magnitude" : 0.86,
-    "latitude" : 33.65983,
-    "longitude" : -116.7135,
-    "depthKm" : 15.89,
-    "timestampEpochMs" : 1795664857900,
+    "latitude" : 33.65567,
+    "longitude" : -116.71267,
+    "depthKm" : 15.74,
+    "timestampEpochMs" : 1795664857930,
     "severity" : "LOW",
-    "reasons" : [ "Within 112.9 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 112.5 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "26 km NW of Ocotillo, CA",
     "magnitude" : 0.84,
@@ -280,32 +298,41 @@
     "severity" : "LOW",
     "reasons" : [ "Within 89.8 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
+    "place" : "10 km SE of Winchester, CA",
+    "magnitude" : 0.83,
+    "latitude" : 33.64417,
+    "longitude" : -117.0135,
+    "depthKm" : 13.26,
+    "timestampEpochMs" : 1795722462050,
+    "severity" : "LOW",
+    "reasons" : [ "Within 104.2 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "20 km SW of La Quinta, CA",
+    "magnitude" : 0.82,
+    "latitude" : 33.5185,
+    "longitude" : -116.44033,
+    "depthKm" : 3.5,
+    "timestampEpochMs" : 1795708901060,
+    "severity" : "LOW",
+    "reasons" : [ "Within 111.7 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
     "place" : "9 km NNW of Anza, CA",
     "magnitude" : 0.8,
-    "latitude" : 33.63467,
-    "longitude" : -116.70433,
-    "depthKm" : 13.97,
-    "timestampEpochMs" : 1795679675840,
+    "latitude" : 33.635,
+    "longitude" : -116.70467,
+    "depthKm" : 13.72,
+    "timestampEpochMs" : 1795679675860,
     "severity" : "LOW",
     "reasons" : [ "Within 110.7 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "9 km NNW of Anza, CA",
-    "magnitude" : 0.69,
-    "latitude" : 33.62833,
-    "longitude" : -116.70533,
-    "depthKm" : 15.84,
-    "timestampEpochMs" : 1795640695360,
-    "severity" : "LOW",
-    "reasons" : [ "Within 110.0 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
     "place" : "3 km WSW of Anza, CA",
     "magnitude" : 0.63,
-    "latitude" : 33.54017,
-    "longitude" : -116.70233,
-    "depthKm" : 6.12,
+    "latitude" : 33.5405,
+    "longitude" : -116.70283,
+    "depthKm" : 5.94,
     "timestampEpochMs" : 1795655158790,
     "severity" : "LOW",
-    "reasons" : [ "Within 101.1 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 101.2 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "11 km NE of Julian, CA",
     "magnitude" : 0.57,
@@ -316,22 +343,13 @@
     "severity" : "LOW",
     "reasons" : [ "Within 77.2 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "12 km SSE of Anza, CA",
-    "magnitude" : 0.42,
-    "latitude" : 33.44833,
-    "longitude" : -116.641,
-    "depthKm" : 7.87,
-    "timestampEpochMs" : 1795629451380,
+    "place" : "9 km WNW of Anza, CA",
+    "magnitude" : 0.53,
+    "latitude" : 33.58417,
+    "longitude" : -116.75883,
+    "depthKm" : 12.02,
+    "timestampEpochMs" : 1795708603790,
     "severity" : "LOW",
-    "reasons" : [ "Within 94.8 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
-    "place" : "6 km N of Lake Henshaw, CA",
-    "magnitude" : 0.35,
-    "latitude" : 33.29817,
-    "longitude" : -116.76667,
-    "depthKm" : 10.08,
-    "timestampEpochMs" : 1795618359920,
-    "severity" : "LOW",
-    "reasons" : [ "Within 74.5 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 103.6 km of target (32.7157, -117.1611) <= 250 km" ]
   } ]
 }
