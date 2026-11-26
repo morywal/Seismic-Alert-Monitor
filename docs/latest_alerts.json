@@ -1,15 +1,6 @@
 {
-  "generatedAtUtc" : "2026-11-25T19:51:27Z",
+  "generatedAtUtc" : "2026-11-26T02:43:23Z",
   "alerts" : [ {
-    "place" : "Balleny Islands region",
-    "magnitude" : 5.9,
-    "latitude" : -63.0918,
-    "longitude" : 170.9371,
-    "depthKm" : 10.0,
-    "timestampEpochMs" : 1795570725672,
-    "severity" : "MEDIUM",
-    "reasons" : [ "Magnitude M5.9 >= M4.5" ]
-  }, {
     "place" : "83 km ESE of Hengchun, Taiwan",
     "magnitude" : 5.3,
     "latitude" : 21.8162,
@@ -18,6 +9,15 @@
     "timestampEpochMs" : 1795596436394,
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M5.3 >= M4.5" ]
+  }, {
+    "place" : "183 km N of Hicks Bay, New Zealand",
+    "magnitude" : 5.2,
+    "latitude" : -35.9665,
+    "longitude" : 178.6429,
+    "depthKm" : 12.687,
+    "timestampEpochMs" : 1795657724213,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M5.2 >= M4.5" ]
   }, {
     "place" : "175 km N of Hicks Bay, New Zealand",
     "magnitude" : 5.2,
@@ -28,6 +28,15 @@
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M5.2 >= M4.5" ]
   }, {
+    "place" : "184 km N of Hicks Bay, New Zealand",
+    "magnitude" : 5.0,
+    "latitude" : -35.934,
+    "longitude" : 178.26,
+    "depthKm" : 10.0,
+    "timestampEpochMs" : 1795658957972,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M5.0 >= M4.5" ]
+  }, {
     "place" : "67 km NNE of Luwuk, Indonesia",
     "magnitude" : 5.0,
     "latitude" : -0.3849,
@@ -37,14 +46,23 @@
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M5.0 >= M4.5" ]
   }, {
-    "place" : "209 km SE of Kokopo, Papua New Guinea",
-    "magnitude" : 5.0,
-    "latitude" : -5.6002,
-    "longitude" : 153.6843,
+    "place" : "190 km N of Hicks Bay, New Zealand",
+    "magnitude" : 4.8,
+    "latitude" : -35.8989,
+    "longitude" : 178.5511,
     "depthKm" : 10.0,
-    "timestampEpochMs" : 1795554701618,
+    "timestampEpochMs" : 1795642353545,
     "severity" : "MEDIUM",
-    "reasons" : [ "Magnitude M5.0 >= M4.5" ]
+    "reasons" : [ "Magnitude M4.8 >= M4.5" ]
+  }, {
+    "place" : "13 km NW of Port-Vila, Vanuatu",
+    "magnitude" : 4.7,
+    "latitude" : -17.6508,
+    "longitude" : 168.224,
+    "depthKm" : 51.54,
+    "timestampEpochMs" : 1795633169141,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M4.7 >= M4.5" ]
   }, {
     "place" : "178 km ESE of Kimbe, Papua New Guinea",
     "magnitude" : 4.7,
@@ -55,59 +73,14 @@
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M4.7 >= M4.5" ]
   }, {
-    "place" : "2 km NNW of Cabatuan, Philippines",
-    "magnitude" : 4.7,
-    "latitude" : 10.9039,
-    "longitude" : 122.4796,
-    "depthKm" : 35.846,
-    "timestampEpochMs" : 1795562995097,
-    "severity" : "MEDIUM",
-    "reasons" : [ "Magnitude M4.7 >= M4.5" ]
-  }, {
-    "place" : "49 km SW of Ovalle, Chile",
-    "magnitude" : 4.6,
-    "latitude" : -30.9455,
-    "longitude" : -71.5206,
-    "depthKm" : 50.858,
-    "timestampEpochMs" : 1795552077411,
-    "severity" : "MEDIUM",
-    "reasons" : [ "Magnitude M4.6 >= M4.5" ]
-  }, {
-    "place" : "64 km W of San Juan, Peru",
-    "magnitude" : 4.5,
-    "latitude" : -15.3841,
-    "longitude" : -75.766,
-    "depthKm" : 10.0,
-    "timestampEpochMs" : 1795559790355,
-    "severity" : "MEDIUM",
-    "reasons" : [ "Magnitude M4.5 >= M4.5" ]
-  }, {
-    "place" : "6 km N of Aguanga, CA",
-    "magnitude" : 2.31,
-    "latitude" : 33.49433,
-    "longitude" : -116.87383,
-    "depthKm" : 4.82,
-    "timestampEpochMs" : 1795552140100,
-    "severity" : "LOW",
-    "reasons" : [ "Within 90.6 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
     "place" : "3 km SW of Brawley, CA",
-    "magnitude" : 1.98,
-    "latitude" : 32.95983,
-    "longitude" : -115.55867,
-    "depthKm" : 10.93,
-    "timestampEpochMs" : 1795634642220,
+    "magnitude" : 1.93,
+    "latitude" : 32.959,
+    "longitude" : -115.55517,
+    "depthKm" : 11.38,
+    "timestampEpochMs" : 1795634642190,
     "severity" : "LOW",
-    "reasons" : [ "Within 152.1 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
-    "place" : "33 km E of Primo Tapia, B.C., MX",
-    "magnitude" : 1.48,
-    "latitude" : 32.23783,
-    "longitude" : -116.56783,
-    "depthKm" : 10.88,
-    "timestampEpochMs" : 1795572087670,
-    "severity" : "LOW",
-    "reasons" : [ "Within 76.9 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 152.5 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "1 km WNW of Sylmar, CA",
     "magnitude" : 1.41,
@@ -154,14 +127,14 @@
     "severity" : "LOW",
     "reasons" : [ "Within 79.0 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "14 km WSW of Ocotillo Wells, CA",
-    "magnitude" : 1.0,
-    "latitude" : 33.11317,
-    "longitude" : -116.273,
-    "depthKm" : 11.87,
-    "timestampEpochMs" : 1795560311820,
+    "place" : "3 km WNW of Irwindale, CA",
+    "magnitude" : 1.01,
+    "latitude" : 34.11417,
+    "longitude" : -117.96583,
+    "depthKm" : 9.56,
+    "timestampEpochMs" : 1795659718900,
     "severity" : "LOW",
-    "reasons" : [ "Within 93.9 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 172.5 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "12 km NE of Coachella, CA",
     "magnitude" : 0.96,
@@ -171,6 +144,15 @@
     "timestampEpochMs" : 1795597346630,
     "severity" : "LOW",
     "reasons" : [ "Within 152.8 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "3 km SE of Lake Henshaw, CA",
+    "magnitude" : 0.9,
+    "latitude" : 33.2185,
+    "longitude" : -116.73883,
+    "depthKm" : 20.57,
+    "timestampEpochMs" : 1795658947010,
+    "severity" : "LOW",
+    "reasons" : [ "Within 68.4 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "1 km N of Silver Lake, CA",
     "magnitude" : 0.84,
@@ -207,6 +189,24 @@
     "timestampEpochMs" : 1795607378190,
     "severity" : "LOW",
     "reasons" : [ "Within 116.3 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "9 km NNW of Anza, CA",
+    "magnitude" : 0.69,
+    "latitude" : 33.62833,
+    "longitude" : -116.70533,
+    "depthKm" : 15.84,
+    "timestampEpochMs" : 1795640695360,
+    "severity" : "LOW",
+    "reasons" : [ "Within 110.0 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "3 km WSW of Anza, CA",
+    "magnitude" : 0.63,
+    "latitude" : 33.54017,
+    "longitude" : -116.70233,
+    "depthKm" : 6.12,
+    "timestampEpochMs" : 1795655158790,
+    "severity" : "LOW",
+    "reasons" : [ "Within 101.1 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "12 km SSE of Anza, CA",
     "magnitude" : 0.42,
