@@ -1,12 +1,21 @@
 {
-  "generatedAtUtc" : "2026-11-27T22:35:59Z",
+  "generatedAtUtc" : "2026-11-28T04:39:07Z",
   "alerts" : [ {
-    "place" : "107 km SSE of Auki, Solomon Islands",
+    "place" : "93 km W of San Antonio de los Cobres, Argentina",
+    "magnitude" : 5.2,
+    "latitude" : -24.299,
+    "longitude" : -67.2363,
+    "depthKm" : 174.617,
+    "timestampEpochMs" : 1795832705520,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M5.2 >= M4.5" ]
+  }, {
+    "place" : "73 km NNW of Phôngsali, Laos",
     "magnitude" : 5.1,
-    "latitude" : -9.5793,
-    "longitude" : 161.2358,
-    "depthKm" : 74.064,
-    "timestampEpochMs" : 1795738020857,
+    "latitude" : 22.2546,
+    "longitude" : 101.7463,
+    "depthKm" : 10.0,
+    "timestampEpochMs" : 1795828662722,
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M5.1 >= M4.5" ]
   }, {
@@ -19,14 +28,14 @@
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M5.0 >= M4.5" ]
   }, {
-    "place" : "89 km SSE of Sola, Vanuatu",
-    "magnitude" : 5.0,
-    "latitude" : -14.6253,
-    "longitude" : 167.8571,
-    "depthKm" : 8.982,
-    "timestampEpochMs" : 1795745601018,
+    "place" : "167 km N of Hicks Bay, New Zealand",
+    "magnitude" : 4.8,
+    "latitude" : -36.0927,
+    "longitude" : 178.3785,
+    "depthKm" : 10.0,
+    "timestampEpochMs" : 1795828125950,
     "severity" : "MEDIUM",
-    "reasons" : [ "Magnitude M5.0 >= M4.5" ]
+    "reasons" : [ "Magnitude M4.8 >= M4.5" ]
   }, {
     "place" : "183 km SSE of Vilyuchinsk, Russia",
     "magnitude" : 4.8,
@@ -37,14 +46,32 @@
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M4.8 >= M4.5" ]
   }, {
-    "place" : "155 km WNW of Tobelo, Indonesia",
+    "place" : "130 km NE of Bitung, Indonesia",
+    "magnitude" : 4.7,
+    "latitude" : 2.2665,
+    "longitude" : 125.9667,
+    "depthKm" : 55.237,
+    "timestampEpochMs" : 1795829806461,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M4.7 >= M4.5" ]
+  }, {
+    "place" : "26 km NNW of Cuya, Chile",
     "magnitude" : 4.6,
-    "latitude" : 2.0437,
-    "longitude" : 126.6462,
-    "depthKm" : 42.538,
-    "timestampEpochMs" : 1795753030107,
+    "latitude" : -18.945,
+    "longitude" : -70.2869,
+    "depthKm" : 78.805,
+    "timestampEpochMs" : 1795834535595,
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M4.6 >= M4.5" ]
+  }, {
+    "place" : "Izu Islands, Japan region",
+    "magnitude" : 4.5,
+    "latitude" : 31.1518,
+    "longitude" : 140.3307,
+    "depthKm" : 10.0,
+    "timestampEpochMs" : 1795816048211,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M4.5 >= M4.5" ]
   }, {
     "place" : "131 km WNW of Neiafu, Tonga",
     "magnitude" : 4.5,
@@ -55,14 +82,14 @@
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M4.5 >= M4.5" ]
   }, {
-    "place" : "10 km ENE of Yucaipa, CA",
-    "magnitude" : 1.74,
-    "latitude" : 34.06367,
-    "longitude" : -116.93633,
-    "depthKm" : 16.38,
-    "timestampEpochMs" : 1795752179390,
+    "place" : "3 km S of Lake View Terrace, CA",
+    "magnitude" : 1.83,
+    "latitude" : 34.2495,
+    "longitude" : -118.36333,
+    "depthKm" : 10.73,
+    "timestampEpochMs" : 1795822607200,
     "severity" : "LOW",
-    "reasons" : [ "Within 151.3 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 203.8 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "3 km NE of Ocotillo Wells, CA",
     "magnitude" : 1.47,
@@ -73,23 +100,14 @@
     "severity" : "LOW",
     "reasons" : [ "Within 110.3 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "11 km SW of Anza, CA",
-    "magnitude" : 1.45,
-    "latitude" : 33.4835,
-    "longitude" : -116.75083,
-    "depthKm" : 10.53,
-    "timestampEpochMs" : 1795735193470,
+    "place" : "26 km NW of Ocotillo, CA",
+    "magnitude" : 1.46,
+    "latitude" : 32.87367,
+    "longitude" : -116.22167,
+    "depthKm" : 11.08,
+    "timestampEpochMs" : 1795822195250,
     "severity" : "LOW",
-    "reasons" : [ "Within 93.5 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
-    "place" : "17 km SE of Anza, CA",
-    "magnitude" : 1.42,
-    "latitude" : 33.445,
-    "longitude" : -116.54733,
-    "depthKm" : 10.47,
-    "timestampEpochMs" : 1795740046670,
-    "severity" : "LOW",
-    "reasons" : [ "Within 99.2 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 89.6 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "26 km ESE of Campo, CA",
     "magnitude" : 1.36,
@@ -118,14 +136,14 @@
     "severity" : "LOW",
     "reasons" : [ "Within 142.0 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "3 km SE of Lake Henshaw, CA",
-    "magnitude" : 1.22,
-    "latitude" : 33.21733,
-    "longitude" : -116.74267,
-    "depthKm" : 9.02,
-    "timestampEpochMs" : 1795737492150,
+    "place" : "26 km NW of Ocotillo, CA",
+    "magnitude" : 1.21,
+    "latitude" : 32.87233,
+    "longitude" : -116.22033,
+    "depthKm" : 11.23,
+    "timestampEpochMs" : 1795826967250,
     "severity" : "LOW",
-    "reasons" : [ "Within 68.1 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 89.6 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "19 km NNE of Indio, CA",
     "magnitude" : 1.15,
@@ -144,6 +162,15 @@
     "timestampEpochMs" : 1795764675950,
     "severity" : "LOW",
     "reasons" : [ "Within 120.6 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "4 km SW of Anza, CA",
+    "magnitude" : 0.84,
+    "latitude" : 33.53633,
+    "longitude" : -116.70483,
+    "depthKm" : 6.17,
+    "timestampEpochMs" : 1795826813610,
+    "severity" : "LOW",
+    "reasons" : [ "Within 100.7 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "19 km NE of Thermal, CA",
     "magnitude" : 0.84,
@@ -172,15 +199,6 @@
     "severity" : "LOW",
     "reasons" : [ "Within 74.9 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "2 km W of Muscoy, CA",
-    "magnitude" : 0.75,
-    "latitude" : 34.15617,
-    "longitude" : -117.36783,
-    "depthKm" : 9.7,
-    "timestampEpochMs" : 1795749215770,
-    "severity" : "LOW",
-    "reasons" : [ "Within 161.3 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
     "place" : "8 km N of Borrego Springs, CA",
     "magnitude" : 0.74,
     "latitude" : 33.328,
@@ -190,15 +208,6 @@
     "severity" : "LOW",
     "reasons" : [ "Within 101.0 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "3 km SE of Lake Henshaw, CA",
-    "magnitude" : 0.74,
-    "latitude" : 33.21733,
-    "longitude" : -116.74267,
-    "depthKm" : 9.2,
-    "timestampEpochMs" : 1795735060110,
-    "severity" : "LOW",
-    "reasons" : [ "Within 68.1 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
     "place" : "4 km SW of Anza, CA",
     "magnitude" : 0.69,
     "latitude" : 33.534,
@@ -207,6 +216,24 @@
     "timestampEpochMs" : 1795785019220,
     "severity" : "LOW",
     "reasons" : [ "Within 100.3 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "3 km SW of Anza, CA",
+    "magnitude" : 0.49,
+    "latitude" : 33.5385,
+    "longitude" : -116.70217,
+    "depthKm" : 5.96,
+    "timestampEpochMs" : 1795837848800,
+    "severity" : "LOW",
+    "reasons" : [ "Within 101.0 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "6 km N of Lake Henshaw, CA",
+    "magnitude" : 0.44,
+    "latitude" : 33.2975,
+    "longitude" : -116.76833,
+    "depthKm" : 10.2,
+    "timestampEpochMs" : 1795828742120,
+    "severity" : "LOW",
+    "reasons" : [ "Within 74.3 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "3 km WSW of Anza, CA",
     "magnitude" : 0.22,
