@@ -1,6 +1,24 @@
 {
-  "generatedAtUtc" : "2026-11-28T04:39:07Z",
+  "generatedAtUtc" : "2026-11-28T13:59:29Z",
   "alerts" : [ {
+    "place" : "62 km NNW of Yelizovo, Russia",
+    "magnitude" : 6.7,
+    "latitude" : 53.7187,
+    "longitude" : 158.0792,
+    "depthKm" : 188.422,
+    "timestampEpochMs" : 1795871706781,
+    "severity" : "CRITICAL",
+    "reasons" : [ "Magnitude M6.7 >= M4.5", "Tsunami flag set by USGS" ]
+  }, {
+    "place" : "10 km WSW of Point MacKenzie, Alaska",
+    "magnitude" : 4.0,
+    "latitude" : 61.333,
+    "longitude" : -150.163,
+    "depthKm" : 39.5,
+    "timestampEpochMs" : 1795846302401,
+    "severity" : "CRITICAL",
+    "reasons" : [ "Tsunami flag set by USGS" ]
+  }, {
     "place" : "93 km W of San Antonio de los Cobres, Argentina",
     "magnitude" : 5.2,
     "latitude" : -24.299,
@@ -19,15 +37,6 @@
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M5.1 >= M4.5" ]
   }, {
-    "place" : "Off the coast of Aisen, Chile",
-    "magnitude" : 5.0,
-    "latitude" : -44.568,
-    "longitude" : -79.7614,
-    "depthKm" : 10.0,
-    "timestampEpochMs" : 1795754676196,
-    "severity" : "MEDIUM",
-    "reasons" : [ "Magnitude M5.0 >= M4.5" ]
-  }, {
     "place" : "167 km N of Hicks Bay, New Zealand",
     "magnitude" : 4.8,
     "latitude" : -36.0927,
@@ -37,14 +46,14 @@
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M4.8 >= M4.5" ]
   }, {
-    "place" : "183 km SSE of Vilyuchinsk, Russia",
-    "magnitude" : 4.8,
-    "latitude" : 51.3928,
-    "longitude" : 159.3662,
-    "depthKm" : 35.488,
-    "timestampEpochMs" : 1795777345335,
+    "place" : "46 km S of Tobelo, Indonesia",
+    "magnitude" : 4.7,
+    "latitude" : 1.3146,
+    "longitude" : 127.9534,
+    "depthKm" : 161.068,
+    "timestampEpochMs" : 1795864041794,
     "severity" : "MEDIUM",
-    "reasons" : [ "Magnitude M4.8 >= M4.5" ]
+    "reasons" : [ "Magnitude M4.7 >= M4.5" ]
   }, {
     "place" : "130 km NE of Bitung, Indonesia",
     "magnitude" : 4.7,
@@ -55,6 +64,15 @@
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M4.7 >= M4.5" ]
   }, {
+    "place" : "132 km E of Neiafu, Tonga",
+    "magnitude" : 4.6,
+    "latitude" : -18.5231,
+    "longitude" : -172.7339,
+    "depthKm" : 10.0,
+    "timestampEpochMs" : 1795857400051,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M4.6 >= M4.5" ]
+  }, {
     "place" : "26 km NNW of Cuya, Chile",
     "magnitude" : 4.6,
     "latitude" : -18.945,
@@ -63,6 +81,15 @@
     "timestampEpochMs" : 1795834535595,
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M4.6 >= M4.5" ]
+  }, {
+    "place" : "154 km WSW of Banda Aceh, Indonesia",
+    "magnitude" : 4.5,
+    "latitude" : 4.7979,
+    "longitude" : 94.1555,
+    "depthKm" : 33.891,
+    "timestampEpochMs" : 1795854638530,
+    "severity" : "MEDIUM",
+    "reasons" : [ "Magnitude M4.5 >= M4.5" ]
   }, {
     "place" : "Izu Islands, Japan region",
     "magnitude" : 4.5,
@@ -73,14 +100,14 @@
     "severity" : "MEDIUM",
     "reasons" : [ "Magnitude M4.5 >= M4.5" ]
   }, {
-    "place" : "131 km WNW of Neiafu, Tonga",
-    "magnitude" : 4.5,
-    "latitude" : -18.3294,
-    "longitude" : -175.1805,
-    "depthKm" : 271.603,
-    "timestampEpochMs" : 1795783696841,
-    "severity" : "MEDIUM",
-    "reasons" : [ "Magnitude M4.5 >= M4.5" ]
+    "place" : "0 km WNW of Pacoima, CA",
+    "magnitude" : 1.92,
+    "latitude" : 34.26633,
+    "longitude" : -118.42333,
+    "depthKm" : 10.76,
+    "timestampEpochMs" : 1795855097090,
+    "severity" : "LOW",
+    "reasons" : [ "Within 208.4 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "3 km S of Lake View Terrace, CA",
     "magnitude" : 1.83,
@@ -91,14 +118,23 @@
     "severity" : "LOW",
     "reasons" : [ "Within 203.8 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "3 km NE of Ocotillo Wells, CA",
-    "magnitude" : 1.47,
-    "latitude" : 33.16567,
-    "longitude" : -116.10767,
-    "depthKm" : 9.14,
-    "timestampEpochMs" : 1795783018940,
+    "place" : "26 km NW of Ocotillo, CA",
+    "magnitude" : 1.67,
+    "latitude" : 32.87333,
+    "longitude" : -116.2225,
+    "depthKm" : 10.54,
+    "timestampEpochMs" : 1795873890560,
     "severity" : "LOW",
-    "reasons" : [ "Within 110.3 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 89.5 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
+    "place" : "6 km N of Lake Henshaw, CA",
+    "magnitude" : 1.48,
+    "latitude" : 33.29617,
+    "longitude" : -116.77533,
+    "depthKm" : 8.19,
+    "timestampEpochMs" : 1795872538880,
+    "severity" : "LOW",
+    "reasons" : [ "Within 73.9 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "26 km NW of Ocotillo, CA",
     "magnitude" : 1.46,
@@ -118,23 +154,14 @@
     "severity" : "LOW",
     "reasons" : [ "Within 91.4 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "26 km WNW of Ludlow, CA",
-    "magnitude" : 1.3,
-    "latitude" : 34.84917,
-    "longitude" : -116.40417,
-    "depthKm" : 2.18,
-    "timestampEpochMs" : 1795781652450,
+    "place" : "11 km SSW of Idyllwild, CA",
+    "magnitude" : 1.22,
+    "latitude" : 33.64967,
+    "longitude" : -116.75767,
+    "depthKm" : 13.85,
+    "timestampEpochMs" : 1795844612140,
     "severity" : "LOW",
-    "reasons" : [ "Within 247.3 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
-    "place" : "7 km ENE of Cabazon, CA",
-    "magnitude" : 1.28,
-    "latitude" : 33.93783,
-    "longitude" : -116.71633,
-    "depthKm" : 9.64,
-    "timestampEpochMs" : 1795773320920,
-    "severity" : "LOW",
-    "reasons" : [ "Within 142.0 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 110.4 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "26 km NW of Ocotillo, CA",
     "magnitude" : 1.21,
@@ -154,14 +181,14 @@
     "severity" : "LOW",
     "reasons" : [ "Within 159.7 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "12 km NNE of Trabuco Canyon, CA",
-    "magnitude" : 1.02,
-    "latitude" : 33.7575,
-    "longitude" : -117.52117,
-    "depthKm" : 10.71,
-    "timestampEpochMs" : 1795764675950,
+    "place" : "15 km E of Ocotillo, CA",
+    "magnitude" : 1.0,
+    "latitude" : 32.75183,
+    "longitude" : -115.833,
+    "depthKm" : 7.54,
+    "timestampEpochMs" : 1795853606800,
     "severity" : "LOW",
-    "reasons" : [ "Within 120.6 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 124.3 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "4 km SW of Anza, CA",
     "magnitude" : 0.84,
@@ -208,14 +235,14 @@
     "severity" : "LOW",
     "reasons" : [ "Within 101.0 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
-    "place" : "4 km SW of Anza, CA",
-    "magnitude" : 0.69,
-    "latitude" : 33.534,
-    "longitude" : -116.708,
-    "depthKm" : 6.62,
-    "timestampEpochMs" : 1795785019220,
+    "place" : "12 km NE of Julian, CA",
+    "magnitude" : 0.55,
+    "latitude" : 33.152,
+    "longitude" : -116.51433,
+    "depthKm" : 6.63,
+    "timestampEpochMs" : 1795844905600,
     "severity" : "LOW",
-    "reasons" : [ "Within 100.3 km of target (32.7157, -117.1611) <= 250 km" ]
+    "reasons" : [ "Within 77.4 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
     "place" : "3 km SW of Anza, CA",
     "magnitude" : 0.49,
@@ -226,6 +253,15 @@
     "severity" : "LOW",
     "reasons" : [ "Within 101.0 km of target (32.7157, -117.1611) <= 250 km" ]
   }, {
+    "place" : "6 km SSW of Idyllwild, CA",
+    "magnitude" : 0.44,
+    "latitude" : 33.68733,
+    "longitude" : -116.735,
+    "depthKm" : 14.99,
+    "timestampEpochMs" : 1795868309480,
+    "severity" : "LOW",
+    "reasons" : [ "Within 115.1 km of target (32.7157, -117.1611) <= 250 km" ]
+  }, {
     "place" : "6 km N of Lake Henshaw, CA",
     "magnitude" : 0.44,
     "latitude" : 33.2975,
@@ -234,14 +270,5 @@
     "timestampEpochMs" : 1795828742120,
     "severity" : "LOW",
     "reasons" : [ "Within 74.3 km of target (32.7157, -117.1611) <= 250 km" ]
-  }, {
-    "place" : "3 km WSW of Anza, CA",
-    "magnitude" : 0.22,
-    "latitude" : 33.53917,
-    "longitude" : -116.70217,
-    "depthKm" : 5.1,
-    "timestampEpochMs" : 1795768379010,
-    "severity" : "LOW",
-    "reasons" : [ "Within 101.0 km of target (32.7157, -117.1611) <= 250 km" ]
   } ]
 }
